@@ -1,0 +1,27 @@
+{
+  "article_data_list": [
+    {
+      "order": 0,
+      "output_relpath": "blogs/2002/02/2002-02-03-00-T9fd63cb7a238.html",
+      "tag_list": [
+        "tag-1",
+        "tag-2"
+      ],
+      "title": "T9fd63cb7a238",
+      "yyyymmdd": "2002-02-03"
+    },
+    {
+      "order": 0,
+      "output_relpath": "blogs/2002/02/2002-02-28-00-T770b335876fc.html",
+      "tag_list": [
+        "tag-0",
+        "tag-1",
+        "tag-2"
+      ],
+      "title": "T770b335876fc",
+      "yyyymmdd": "2002-02-28"
+    }
+  ],
+  "tag": "tag-2",
+  "yyyymm": "2002-02"
+}

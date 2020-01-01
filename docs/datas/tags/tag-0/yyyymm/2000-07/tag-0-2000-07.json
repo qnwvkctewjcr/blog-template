@@ -1,0 +1,25 @@
+{
+  "article_data_list": [
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/07/2000-07-23-00-T11304af0c359.html",
+      "tag_list": [
+        "tag-0",
+        "tag-2"
+      ],
+      "title": "T11304af0c359",
+      "yyyymmdd": "2000-07-23"
+    },
+    {
+      "order": 2,
+      "output_relpath": "blogs/2000/07/2000-07-30-02-T342115153338.html",
+      "tag_list": [
+        "tag-0"
+      ],
+      "title": "T342115153338",
+      "yyyymmdd": "2000-07-30"
+    }
+  ],
+  "tag": "tag-0",
+  "yyyymm": "2000-07"
+}

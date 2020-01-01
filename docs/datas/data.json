@@ -1,4 +1,22 @@
 {
+  "tag_to_data_dict": {
+    "tag-0": {
+      "data_path": "datas/tags/tag-0/tag-0.json",
+      "tag": "tag-0"
+    },
+    "tag-1": {
+      "data_path": "datas/tags/tag-1/tag-1.json",
+      "tag": "tag-1"
+    },
+    "tag-2": {
+      "data_path": "datas/tags/tag-2/tag-2.json",
+      "tag": "tag-2"
+    },
+    "tag-3": {
+      "data_path": "datas/tags/tag-3/tag-3.json",
+      "tag": "tag-3"
+    }
+  },
   "yyyymm_to_data_dict": {
     "2000-01": {
       "data_path": "datas/yyyymms/2000-01.json"

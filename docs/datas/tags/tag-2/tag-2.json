@@ -1,0 +1,85 @@
+{
+  "tag": "tag-2",
+  "yyyymm_to_data_dict": {
+    "2000-01": {
+      "data_path": "datas/tags/tag-2/yyyymm/2000-01/tag-2-2000-01.json",
+      "tag": "tag-2",
+      "yyyymm": "2000-01"
+    },
+    "2000-07": {
+      "data_path": "datas/tags/tag-2/yyyymm/2000-07/tag-2-2000-07.json",
+      "tag": "tag-2",
+      "yyyymm": "2000-07"
+    },
+    "2000-08": {
+      "data_path": "datas/tags/tag-2/yyyymm/2000-08/tag-2-2000-08.json",
+      "tag": "tag-2",
+      "yyyymm": "2000-08"
+    },
+    "2000-09": {
+      "data_path": "datas/tags/tag-2/yyyymm/2000-09/tag-2-2000-09.json",
+      "tag": "tag-2",
+      "yyyymm": "2000-09"
+    },
+    "2002-01": {
+      "data_path": "datas/tags/tag-2/yyyymm/2002-01/tag-2-2002-01.json",
+      "tag": "tag-2",
+      "yyyymm": "2002-01"
+    },
+    "2002-02": {
+      "data_path": "datas/tags/tag-2/yyyymm/2002-02/tag-2-2002-02.json",
+      "tag": "tag-2",
+      "yyyymm": "2002-02"
+    },
+    "2002-05": {
+      "data_path": "datas/tags/tag-2/yyyymm/2002-05/tag-2-2002-05.json",
+      "tag": "tag-2",
+      "yyyymm": "2002-05"
+    },
+    "2002-06": {
+      "data_path": "datas/tags/tag-2/yyyymm/2002-06/tag-2-2002-06.json",
+      "tag": "tag-2",
+      "yyyymm": "2002-06"
+    },
+    "2002-07": {
+      "data_path": "datas/tags/tag-2/yyyymm/2002-07/tag-2-2002-07.json",
+      "tag": "tag-2",
+      "yyyymm": "2002-07"
+    },
+    "2002-12": {
+      "data_path": "datas/tags/tag-2/yyyymm/2002-12/tag-2-2002-12.json",
+      "tag": "tag-2",
+      "yyyymm": "2002-12"
+    },
+    "2003-03": {
+      "data_path": "datas/tags/tag-2/yyyymm/2003-03/tag-2-2003-03.json",
+      "tag": "tag-2",
+      "yyyymm": "2003-03"
+    },
+    "2003-04": {
+      "data_path": "datas/tags/tag-2/yyyymm/2003-04/tag-2-2003-04.json",
+      "tag": "tag-2",
+      "yyyymm": "2003-04"
+    },
+    "2003-05": {
+      "data_path": "datas/tags/tag-2/yyyymm/2003-05/tag-2-2003-05.json",
+      "tag": "tag-2",
+      "yyyymm": "2003-05"
+    },
+    "2003-08": {
+      "data_path": "datas/tags/tag-2/yyyymm/2003-08/tag-2-2003-08.json",
+      "tag": "tag-2",
+      "yyyymm": "2003-08"
+    },
+    "2003-10": {
+      "data_path": "datas/tags/tag-2/yyyymm/2003-10/tag-2-2003-10.json",
+      "tag": "tag-2",
+      "yyyymm": "2003-10"
+    },
+    "2003-11": {
+      "data_path": "datas/tags/tag-2/yyyymm/2003-11/tag-2-2003-11.json",
+      "tag": "tag-2",
+      "yyyymm": "2003-11"
+    }
+  }
+}

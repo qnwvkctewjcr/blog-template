@@ -72,12 +72,50 @@ def main():
         }
     
     # for tag-yyyymm
+    tag_to_article_data_list_dict = to_list_dict0(lambda i: i['tag_list'], article_data_list)
+    tag_to_data_dict = {}
+    for tag, _article_data_list in tag_to_article_data_list_dict.items():
+        _yyyymm_to_article_data_list_dict = to_list_dict(lambda i: i['yyyymm'], _article_data_list)
+        _yyyymm_to_data_dict = {}
+        for yyyymm, __article_data_list in _yyyymm_to_article_data_list_dict.items():
+            ___article_data_list = __article_data_list
+            ___article_data_list = list(map(lambda i:i['j'], ___article_data_list))
+            ___article_data_list.sort(key=lambda i:(i['yyyymmdd'],i['order']))
+
+            j_relpath = os.path.join('datas','tags',tag,'yyyymm',yyyymm,f'{tag}-{yyyymm}.json')
+            j_path = os.path.join(docs_output_path,j_relpath)
+            data = {
+                'tag': tag,
+                'yyyymm': yyyymm,
+                'article_data_list': ___article_data_list,
+            }
+            write_json(j_path, data)
+
+            _yyyymm_to_data_dict[yyyymm] = {
+                'tag': tag,
+                'yyyymm': yyyymm,
+                'data_path': j_relpath,
+            }
+
+        j_relpath = os.path.join('datas','tags',tag,f'{tag}.json')
+        j_path = os.path.join(docs_output_path,j_relpath)
+        data = {
+            'tag': tag,
+            'yyyymm_to_data_dict': _yyyymm_to_data_dict,
+        }
+        write_json(j_path, data)
+
+        tag_to_data_dict[tag] = {
+            'tag': tag,
+            'data_path': j_relpath
+        }
 
     # output root data
     write_json(
         os.path.join(docs_output_path,'datas','data.json'),
         {
-            'yyyymm_to_data_dict': yyyymm_to_data_dict
+            'yyyymm_to_data_dict': yyyymm_to_data_dict,
+            'tag_to_data_dict': tag_to_data_dict,
         }
     )
 

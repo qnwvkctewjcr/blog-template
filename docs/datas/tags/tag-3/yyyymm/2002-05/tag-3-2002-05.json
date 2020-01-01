@@ -1,0 +1,25 @@
+{
+  "article_data_list": [
+    {
+      "order": 1,
+      "output_relpath": "blogs/2002/05/2002-05-04-01-T30b150317042.html",
+      "tag_list": [
+        "tag-3"
+      ],
+      "title": "T30b150317042",
+      "yyyymmdd": "2002-05-04"
+    },
+    {
+      "order": 1,
+      "output_relpath": "blogs/2002/05/2002-05-15-01-T577f8adf9010.html",
+      "tag_list": [
+        "tag-1",
+        "tag-3"
+      ],
+      "title": "T577f8adf9010",
+      "yyyymmdd": "2002-05-15"
+    }
+  ],
+  "tag": "tag-3",
+  "yyyymm": "2002-05"
+}
