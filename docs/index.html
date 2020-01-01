@@ -8,37 +8,32 @@
 </head>
 <body>
 
-<script>
-$(document).ready(function(){
-    getLatestArticleMetadataPromise();
-});
-
-function getLatestArticleMetadataPromise(){
-    return $.getJSON(URL_ROOT+"/datas/data.json")
-        .then(function(data){
-            //console.log(data);
-            
-            var yyyymm_to_data_dict = data["yyyymm_to_data_dict"];
-            //console.log(Object.keys(yyyymm_to_data_dict));
-    
-            var max_yyyymm = Object.keys(yyyymm_to_data_dict);
-            max_yyyymm = max_yyyymm.sort();
-            max_yyyymm = max_yyyymm[max_yyyymm.length-1];
-            //console.log(max_yyyymm);
-    
-            return $.getJSON(URL_ROOT+"/"+yyyymm_to_data_dict[max_yyyymm]["data_path"]);
-        })
-        .then(function(data){
-            //console.log(data);
-            
-            var article_data_list = data["article_data_list"];
-            
-            var ret = article_data_list[article_data_list.length-1];
-            
-            return ret;
+<div id="content_list">
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(checkTick);
+            $(window).resize(checkTick);
+            checkTick();
         });
-}
-</script>
+        function checkTick(){
+            var scrollTop = document.documentElement.scrollTop;
+            var windowHeight = $(window).height();
+            var contentListHeight = $("#content_list").height();
+            
+            if(scrollTop+windowHeight+windowHeight<contentListHeight) return;
+            
+            getLatestArticleMetadataPromise()
+            .then(function(data){
+                return $.getJSON(URL_ROOT+"/"+data["output_data_relpath"]);
+            }).then(function(data){
+                var content_html = data["content_html"];
+                var article_div = $("<div/>").html(content_html);
+                $("#content_list").append(article_div);
+                checkTick();
+            });
+        }
+    </script>
+</div>
 
 </body>
 </html>
