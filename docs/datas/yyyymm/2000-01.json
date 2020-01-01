@@ -1,140 +1,143 @@
-[
-  {
-    "order": 0,
-    "output_relpath": "blogs/2000/01/2000-01-01-00-T38be5cc25730.html",
-    "tag_list": [
-      "tag-1"
-    ],
-    "title": "T38be5cc25730",
-    "yyyymmdd": "2000-01-01"
-  },
-  {
-    "order": 2,
-    "output_relpath": "blogs/2000/01/2000-01-01-02-T7d30222cb270.html",
-    "tag_list": [
-      "tag-0",
-      "tag-1"
-    ],
-    "title": "T7d30222cb270",
-    "yyyymmdd": "2000-01-01"
-  },
-  {
-    "order": 0,
-    "output_relpath": "blogs/2000/01/2000-01-02-00-T0fce208c2cb8.html",
-    "tag_list": [
-      "tag-0",
-      "tag-1",
-      "tag-3"
-    ],
-    "title": "T0fce208c2cb8",
-    "yyyymmdd": "2000-01-02"
-  },
-  {
-    "order": 1,
-    "output_relpath": "blogs/2000/01/2000-01-02-01-T5d9baa1f7c36.html",
-    "tag_list": [
-      "tag-0",
-      "tag-1"
-    ],
-    "title": "T5d9baa1f7c36",
-    "yyyymmdd": "2000-01-02"
-  },
-  {
-    "order": 2,
-    "output_relpath": "blogs/2000/01/2000-01-02-02-T7b5d1f4b094d.html",
-    "tag_list": [
-      "tag-0",
-      "tag-2"
-    ],
-    "title": "T7b5d1f4b094d",
-    "yyyymmdd": "2000-01-02"
-  },
-  {
-    "order": 2,
-    "output_relpath": "blogs/2000/01/2000-01-08-02-Tb6ceb0af641c.html",
-    "tag_list": [
-      "tag-3"
-    ],
-    "title": "Tb6ceb0af641c",
-    "yyyymmdd": "2000-01-08"
-  },
-  {
-    "order": 0,
-    "output_relpath": "blogs/2000/01/2000-01-11-00-Taaa8a153ffe4.html",
-    "tag_list": [
-      "tag-2",
-      "tag-3"
-    ],
-    "title": "Taaa8a153ffe4",
-    "yyyymmdd": "2000-01-11"
-  },
-  {
-    "order": 1,
-    "output_relpath": "blogs/2000/01/2000-01-11-01-T8c786e140cf2.html",
-    "tag_list": [
-      "tag-2",
-      "tag-3"
-    ],
-    "title": "T8c786e140cf2",
-    "yyyymmdd": "2000-01-11"
-  },
-  {
-    "order": 0,
-    "output_relpath": "blogs/2000/01/2000-01-15-00-T73f9f9446a68.html",
-    "tag_list": [
-      "tag-0",
-      "tag-1"
-    ],
-    "title": "T73f9f9446a68",
-    "yyyymmdd": "2000-01-15"
-  },
-  {
-    "order": 0,
-    "output_relpath": "blogs/2000/01/2000-01-25-00-Td235820ea1a7.html",
-    "tag_list": [
-      "tag-2",
-      "tag-3"
-    ],
-    "title": "Td235820ea1a7",
-    "yyyymmdd": "2000-01-25"
-  },
-  {
-    "order": 2,
-    "output_relpath": "blogs/2000/01/2000-01-25-02-Ta8b65545a473.html",
-    "tag_list": [
-      "tag-3"
-    ],
-    "title": "Ta8b65545a473",
-    "yyyymmdd": "2000-01-25"
-  },
-  {
-    "order": 0,
-    "output_relpath": "blogs/2000/01/2000-01-26-00-Tab2aaa885cec.html",
-    "tag_list": [
-      "tag-0",
-      "tag-2",
-      "tag-3"
-    ],
-    "title": "Tab2aaa885cec",
-    "yyyymmdd": "2000-01-26"
-  },
-  {
-    "order": 0,
-    "output_relpath": "blogs/2000/01/2000-01-31-00-T1bd13ef89deb.html",
-    "tag_list": [
-      "tag-0",
-      "tag-2"
-    ],
-    "title": "T1bd13ef89deb",
-    "yyyymmdd": "2000-01-31"
-  },
-  {
-    "order": 1,
-    "output_relpath": "blogs/2000/01/2000-01-31-01-T8239cae00041.html",
-    "tag_list": [
-      "tag-3"
-    ],
-    "title": "T8239cae00041",
-    "yyyymmdd": "2000-01-31"
-  }
-]
+{
+  "article_data_list": [
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/01/2000-01-01-00-T38be5cc25730.html",
+      "tag_list": [
+        "tag-1"
+      ],
+      "title": "T38be5cc25730",
+      "yyyymmdd": "2000-01-01"
+    },
+    {
+      "order": 2,
+      "output_relpath": "blogs/2000/01/2000-01-01-02-T7d30222cb270.html",
+      "tag_list": [
+        "tag-0",
+        "tag-1"
+      ],
+      "title": "T7d30222cb270",
+      "yyyymmdd": "2000-01-01"
+    },
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/01/2000-01-02-00-T0fce208c2cb8.html",
+      "tag_list": [
+        "tag-0",
+        "tag-1",
+        "tag-3"
+      ],
+      "title": "T0fce208c2cb8",
+      "yyyymmdd": "2000-01-02"
+    },
+    {
+      "order": 1,
+      "output_relpath": "blogs/2000/01/2000-01-02-01-T5d9baa1f7c36.html",
+      "tag_list": [
+        "tag-0",
+        "tag-1"
+      ],
+      "title": "T5d9baa1f7c36",
+      "yyyymmdd": "2000-01-02"
+    },
+    {
+      "order": 2,
+      "output_relpath": "blogs/2000/01/2000-01-02-02-T7b5d1f4b094d.html",
+      "tag_list": [
+        "tag-0",
+        "tag-2"
+      ],
+      "title": "T7b5d1f4b094d",
+      "yyyymmdd": "2000-01-02"
+    },
+    {
+      "order": 2,
+      "output_relpath": "blogs/2000/01/2000-01-08-02-Tb6ceb0af641c.html",
+      "tag_list": [
+        "tag-3"
+      ],
+      "title": "Tb6ceb0af641c",
+      "yyyymmdd": "2000-01-08"
+    },
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/01/2000-01-11-00-Taaa8a153ffe4.html",
+      "tag_list": [
+        "tag-2",
+        "tag-3"
+      ],
+      "title": "Taaa8a153ffe4",
+      "yyyymmdd": "2000-01-11"
+    },
+    {
+      "order": 1,
+      "output_relpath": "blogs/2000/01/2000-01-11-01-T8c786e140cf2.html",
+      "tag_list": [
+        "tag-2",
+        "tag-3"
+      ],
+      "title": "T8c786e140cf2",
+      "yyyymmdd": "2000-01-11"
+    },
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/01/2000-01-15-00-T73f9f9446a68.html",
+      "tag_list": [
+        "tag-0",
+        "tag-1"
+      ],
+      "title": "T73f9f9446a68",
+      "yyyymmdd": "2000-01-15"
+    },
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/01/2000-01-25-00-Td235820ea1a7.html",
+      "tag_list": [
+        "tag-2",
+        "tag-3"
+      ],
+      "title": "Td235820ea1a7",
+      "yyyymmdd": "2000-01-25"
+    },
+    {
+      "order": 2,
+      "output_relpath": "blogs/2000/01/2000-01-25-02-Ta8b65545a473.html",
+      "tag_list": [
+        "tag-3"
+      ],
+      "title": "Ta8b65545a473",
+      "yyyymmdd": "2000-01-25"
+    },
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/01/2000-01-26-00-Tab2aaa885cec.html",
+      "tag_list": [
+        "tag-0",
+        "tag-2",
+        "tag-3"
+      ],
+      "title": "Tab2aaa885cec",
+      "yyyymmdd": "2000-01-26"
+    },
+    {
+      "order": 0,
+      "output_relpath": "blogs/2000/01/2000-01-31-00-T1bd13ef89deb.html",
+      "tag_list": [
+        "tag-0",
+        "tag-2"
+      ],
+      "title": "T1bd13ef89deb",
+      "yyyymmdd": "2000-01-31"
+    },
+    {
+      "order": 1,
+      "output_relpath": "blogs/2000/01/2000-01-31-01-T8239cae00041.html",
+      "tag_list": [
+        "tag-3"
+      ],
+      "title": "T8239cae00041",
+      "yyyymmdd": "2000-01-31"
+    }
+  ],
+  "yyyymm": "2000-01"
+}
