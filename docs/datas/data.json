@@ -1,22 +1,58 @@
 {
-  "yyyymm_to_data_path_dict": {
-    "2000-01": "datas/yyyymms/2000-01.json",
-    "2000-07": "datas/yyyymms/2000-07.json",
-    "2000-08": "datas/yyyymms/2000-08.json",
-    "2000-09": "datas/yyyymms/2000-09.json",
-    "2002-01": "datas/yyyymms/2002-01.json",
-    "2002-02": "datas/yyyymms/2002-02.json",
-    "2002-03": "datas/yyyymms/2002-03.json",
-    "2002-05": "datas/yyyymms/2002-05.json",
-    "2002-06": "datas/yyyymms/2002-06.json",
-    "2002-07": "datas/yyyymms/2002-07.json",
-    "2002-12": "datas/yyyymms/2002-12.json",
-    "2003-01": "datas/yyyymms/2003-01.json",
-    "2003-03": "datas/yyyymms/2003-03.json",
-    "2003-04": "datas/yyyymms/2003-04.json",
-    "2003-05": "datas/yyyymms/2003-05.json",
-    "2003-08": "datas/yyyymms/2003-08.json",
-    "2003-10": "datas/yyyymms/2003-10.json",
-    "2003-11": "datas/yyyymms/2003-11.json"
+  "yyyymm_to_data_dict": {
+    "2000-01": {
+      "data_path": "datas/yyyymms/2000-01.json"
+    },
+    "2000-07": {
+      "data_path": "datas/yyyymms/2000-07.json"
+    },
+    "2000-08": {
+      "data_path": "datas/yyyymms/2000-08.json"
+    },
+    "2000-09": {
+      "data_path": "datas/yyyymms/2000-09.json"
+    },
+    "2002-01": {
+      "data_path": "datas/yyyymms/2002-01.json"
+    },
+    "2002-02": {
+      "data_path": "datas/yyyymms/2002-02.json"
+    },
+    "2002-03": {
+      "data_path": "datas/yyyymms/2002-03.json"
+    },
+    "2002-05": {
+      "data_path": "datas/yyyymms/2002-05.json"
+    },
+    "2002-06": {
+      "data_path": "datas/yyyymms/2002-06.json"
+    },
+    "2002-07": {
+      "data_path": "datas/yyyymms/2002-07.json"
+    },
+    "2002-12": {
+      "data_path": "datas/yyyymms/2002-12.json"
+    },
+    "2003-01": {
+      "data_path": "datas/yyyymms/2003-01.json"
+    },
+    "2003-03": {
+      "data_path": "datas/yyyymms/2003-03.json"
+    },
+    "2003-04": {
+      "data_path": "datas/yyyymms/2003-04.json"
+    },
+    "2003-05": {
+      "data_path": "datas/yyyymms/2003-05.json"
+    },
+    "2003-08": {
+      "data_path": "datas/yyyymms/2003-08.json"
+    },
+    "2003-10": {
+      "data_path": "datas/yyyymms/2003-10.json"
+    },
+    "2003-11": {
+      "data_path": "datas/yyyymms/2003-11.json"
+    }
   }
 }
