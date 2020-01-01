@@ -1,3 +1,4 @@
+import argparse
 import datetime
 import itertools
 import jinja2
@@ -8,12 +9,20 @@ import shutil
 
 MY_PATH = os.getcwd()
 
-def main():
+def main(profile=None):
+    if profile is None: profile = 'prod'
+    
+    conf_data = read_json(os.path.join(MY_PATH,'profiles',profile,'conf.json'))
+
+    OUTPUT_PATH = conf_data['OUTPUT_PATH']
+    OUTPUT_PATH = os.path.join(MY_PATH, OUTPUT_PATH)
+
+    URL_ROOT = conf_data['URL_ROOT']
 
     template_loader = jinja2.FileSystemLoader(searchpath=['templates','blogs'])
     template_env = jinja2.Environment(loader=template_loader)
     blog_input_path = os.path.join(MY_PATH, 'blogs')
-    docs_output_path = os.path.join(MY_PATH, 'docs')
+    docs_output_path = OUTPUT_PATH
 
     article_data_list = find_file(blog_input_path)
     article_data_list = filter(lambda i:i.endswith('.html.jinja'),article_data_list)
@@ -51,7 +60,7 @@ def main():
         output_abspath = article_data['output_abspath']
         output_abspath_dirname = os.path.dirname(output_abspath)
         makedirs(output_abspath_dirname)
-        article_template.stream().dump(output_abspath)
+        article_template.stream(URL_ROOT=URL_ROOT).dump(output_abspath)
 
     # for yyyymm
     yyyymm_to_article_data_list_dict = to_list_dict(lambda i: i['yyyymm'], article_data_list)
@@ -119,6 +128,8 @@ def main():
         }
     )
 
+    copy_tree(os.path.join(MY_PATH,'static'), OUTPUT_PATH)
+
 def to_list_dict(k_lambda, data_list):
     ret_dict = {}
     for data in data_list:
@@ -154,4 +165,21 @@ def write_json(path, data):
         fout.write(json.dumps(data, sort_keys=True, indent=2))
         fout.write('\n')
 
-main()
+def read_json(path):
+    with open(path, mode='r') as fin:
+        return json.load(fin)
+
+def copy_tree(src, dst):
+    for root, _, files in os.walk(src):
+        for file in files:
+            src_abspath = os.path.join(root, file)
+            relpath = os.path.relpath(src_abspath, src)
+            tar_abspath = os.path.join(dst, relpath)
+            makedirs(os.path.dirname(tar_abspath))
+            shutil.copy(src_abspath, tar_abspath)
+
+parser = argparse.ArgumentParser()
+parser.add_argument('profile')
+args = parser.parse_args()
+
+main(profile=args.profile)
