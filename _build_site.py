@@ -62,6 +62,10 @@ def main(profile=None):
         makedirs(output_abspath_dirname)
         article_template.stream(URL_ROOT=URL_ROOT).dump(output_abspath)
 
+    # build index
+    template_env.get_template('index.html.jinja') \
+      .stream(URL_ROOT=URL_ROOT).dump(os.path.join(OUTPUT_PATH,'index.html'))
+
     # for yyyymm
     yyyymm_to_article_data_list_dict = to_list_dict(lambda i: i['yyyymm'], article_data_list)
     yyyymm_to_data_dict = {}
