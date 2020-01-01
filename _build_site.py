@@ -43,7 +43,7 @@ def main(profile=None):
         article_data['yyyymm'] = article_data['datetime'].strftime('%Y-%m')
         filename = article_template.module.filename if hasattr(article_template.module,'filename') else \
                    article_data['title']
-        filename = f'{order:02d}-{filename}.html'
+        filename = f'{order:03d}-{filename}.html'
         article_data['filename'] = filename
         # output_basename = os.path.basename(article_data['input_abspath'])[:-6]
         article_data['output_html_relpath'] = os.path.join('articles',yyyy,mm,dd,article_data['filename'])
