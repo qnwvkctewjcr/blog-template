@@ -1,4 +1,4 @@
 {
-    "URL_ROOT": "",
+    "URL_ROOT": "blog-template",
     "OUTPUT_PATH": "docs"
 }
