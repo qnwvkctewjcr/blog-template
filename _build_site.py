@@ -193,4 +193,4 @@ parser = argparse.ArgumentParser()
 parser.add_argument('profile', nargs='?')
 args = parser.parse_args()
 
-main(profile=args.profile)
+main(**(args.__dict__))
