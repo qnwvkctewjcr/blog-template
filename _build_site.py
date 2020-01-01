@@ -54,9 +54,9 @@ def main():
         article_template.stream().dump(output_abspath)
 
     # for yyyymm
-    yyyymm_to_article_data_list = to_list_dict(lambda i: i['yyyymm'], article_data_list)
+    yyyymm_to_article_data_list_dict = to_list_dict(lambda i: i['yyyymm'], article_data_list)
     yyyymm_to_data_path_dict = {}
-    for yyyymm, _article_data_list in yyyymm_to_article_data_list.items():
+    for yyyymm, _article_data_list in yyyymm_to_article_data_list_dict.items():
         j_relpath = os.path.join('datas','yyyymms',f'{yyyymm}.json')
         j_path = os.path.join(docs_output_path,j_relpath)
         __article_data_list = _article_data_list
