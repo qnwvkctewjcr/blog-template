@@ -45,7 +45,7 @@ def main():
         output_abspath = article_data['output_abspath']
         output_abspath_dirname = os.path.dirname(output_abspath)
         makedirs(output_abspath_dirname)
-        
+        article_template.stream().dump(output_abspath)
 
 def to_list_dict(data_list, k_lambda):
     ret_dict = {}
