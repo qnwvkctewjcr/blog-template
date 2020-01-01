@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "fd6a247ebfa53224c7e5c6ae88a6dbf8cfd9d94667f86bd08d906623f7602ac8",
       "filename": "00-fnTaff60af9ffb9.html",
       "order": 0,
-      "output_relpath": "articles/2003/03/31/00-fnTaff60af9ffb9.html",
+      "output_data_relpath": "datas/articles/fd/fd6a247ebfa53224c7e5c6ae88a6dbf8cfd9d94667f86bd08d906623f7602ac8.json",
+      "output_html_relpath": "articles/2003/03/31/00-fnTaff60af9ffb9.html",
       "tag_list": [
         "tag-0",
         "tag-1",

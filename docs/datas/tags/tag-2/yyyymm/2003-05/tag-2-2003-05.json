@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "f488d914832d6ba275edfac5c0fba76bcfc182d8332a5177e2e51a879adb77a0",
       "filename": "00-2003-05-02-00-Tfab276c1869a.html",
       "order": 0,
-      "output_relpath": "articles/2003/05/02/00-2003-05-02-00-Tfab276c1869a.html",
+      "output_data_relpath": "datas/articles/f4/f488d914832d6ba275edfac5c0fba76bcfc182d8332a5177e2e51a879adb77a0.json",
+      "output_html_relpath": "articles/2003/05/02/00-2003-05-02-00-Tfab276c1869a.html",
       "tag_list": [
         "tag-1",
         "tag-2",
@@ -13,9 +15,11 @@
       "yyyymmdd": "2003-05-02"
     },
     {
+      "article_id": "892f2f2f9eb6c7385a225b5b717db49110a91cc8f7085599e2614a3e41354356",
       "filename": "01-fnT34ccfb07fc1b.html",
       "order": 1,
-      "output_relpath": "articles/2003/05/02/01-fnT34ccfb07fc1b.html",
+      "output_data_relpath": "datas/articles/89/892f2f2f9eb6c7385a225b5b717db49110a91cc8f7085599e2614a3e41354356.json",
+      "output_html_relpath": "articles/2003/05/02/01-fnT34ccfb07fc1b.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -24,9 +28,11 @@
       "yyyymmdd": "2003-05-02"
     },
     {
+      "article_id": "443eceba5358d127fb1238b2f8d2f122a8ab046f777e4d52e2e84f4a1a314c37",
       "filename": "00-2003-05-10-00-Tb8bde4edaba1.html",
       "order": 0,
-      "output_relpath": "articles/2003/05/10/00-2003-05-10-00-Tb8bde4edaba1.html",
+      "output_data_relpath": "datas/articles/44/443eceba5358d127fb1238b2f8d2f122a8ab046f777e4d52e2e84f4a1a314c37.json",
+      "output_html_relpath": "articles/2003/05/10/00-2003-05-10-00-Tb8bde4edaba1.html",
       "tag_list": [
         "tag-0",
         "tag-2",
@@ -36,9 +42,11 @@
       "yyyymmdd": "2003-05-10"
     },
     {
+      "article_id": "8787ce9e47f1654437766cc4a4255955462e89e6d99cd4d7c65207b51c810f14",
       "filename": "01-2003-05-10-01-T054544397033.html",
       "order": 1,
-      "output_relpath": "articles/2003/05/10/01-2003-05-10-01-T054544397033.html",
+      "output_data_relpath": "datas/articles/87/8787ce9e47f1654437766cc4a4255955462e89e6d99cd4d7c65207b51c810f14.json",
+      "output_html_relpath": "articles/2003/05/10/01-2003-05-10-01-T054544397033.html",
       "tag_list": [
         "tag-1",
         "tag-2",
@@ -48,9 +56,11 @@
       "yyyymmdd": "2003-05-10"
     },
     {
+      "article_id": "0c4245d3fa9ff8b907701f0d73d7b7292be562db93c6abad41520149c8507d29",
       "filename": "02-fnT3efa76807519.html",
       "order": 2,
-      "output_relpath": "articles/2003/05/10/02-fnT3efa76807519.html",
+      "output_data_relpath": "datas/articles/0c/0c4245d3fa9ff8b907701f0d73d7b7292be562db93c6abad41520149c8507d29.json",
+      "output_html_relpath": "articles/2003/05/10/02-fnT3efa76807519.html",
       "tag_list": [
         "tag-1",
         "tag-2",
@@ -60,9 +70,11 @@
       "yyyymmdd": "2003-05-10"
     },
     {
+      "article_id": "8162d14fe15a810c870e6be06c3370a457c856db56182aa7aa6d533ecc52dc26",
       "filename": "00-fnT62a01ab242ec.html",
       "order": 0,
-      "output_relpath": "articles/2003/05/14/00-fnT62a01ab242ec.html",
+      "output_data_relpath": "datas/articles/81/8162d14fe15a810c870e6be06c3370a457c856db56182aa7aa6d533ecc52dc26.json",
+      "output_html_relpath": "articles/2003/05/14/00-fnT62a01ab242ec.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -71,9 +83,11 @@
       "yyyymmdd": "2003-05-14"
     },
     {
+      "article_id": "f6fff94988ead4e6966e57cf51c92a71959ce4cd7af8a55e6f414dce89103e25",
       "filename": "00-2003-05-15-00-Td1418c6e71ee.html",
       "order": 0,
-      "output_relpath": "articles/2003/05/15/00-2003-05-15-00-Td1418c6e71ee.html",
+      "output_data_relpath": "datas/articles/f6/f6fff94988ead4e6966e57cf51c92a71959ce4cd7af8a55e6f414dce89103e25.json",
+      "output_html_relpath": "articles/2003/05/15/00-2003-05-15-00-Td1418c6e71ee.html",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -82,9 +96,11 @@
       "yyyymmdd": "2003-05-15"
     },
     {
+      "article_id": "36dbf4dc1d019872e3a9977f641301f97427fcfefdee86ea43e9e42bd3d08ff7",
       "filename": "01-fnT481388a4272a.html",
       "order": 1,
-      "output_relpath": "articles/2003/05/15/01-fnT481388a4272a.html",
+      "output_data_relpath": "datas/articles/36/36dbf4dc1d019872e3a9977f641301f97427fcfefdee86ea43e9e42bd3d08ff7.json",
+      "output_html_relpath": "articles/2003/05/15/01-fnT481388a4272a.html",
       "tag_list": [
         "tag-2"
       ],
@@ -92,9 +108,11 @@
       "yyyymmdd": "2003-05-15"
     },
     {
+      "article_id": "46715fef4b5d1b13717fdb91839d9f7d6af519e722a5a7d4a930262f6c20a701",
       "filename": "01-2003-05-22-01-Tcc8662e05b93.html",
       "order": 1,
-      "output_relpath": "articles/2003/05/22/01-2003-05-22-01-Tcc8662e05b93.html",
+      "output_data_relpath": "datas/articles/46/46715fef4b5d1b13717fdb91839d9f7d6af519e722a5a7d4a930262f6c20a701.json",
+      "output_html_relpath": "articles/2003/05/22/01-2003-05-22-01-Tcc8662e05b93.html",
       "tag_list": [
         "tag-0",
         "tag-1",
@@ -104,9 +122,11 @@
       "yyyymmdd": "2003-05-22"
     },
     {
+      "article_id": "6ba4f791ca4aa61e43e2fc0372067008c96f7dea1b5ab8ece6000515618be67e",
       "filename": "02-fnT8077259afbfe.html",
       "order": 2,
-      "output_relpath": "articles/2003/05/26/02-fnT8077259afbfe.html",
+      "output_data_relpath": "datas/articles/6b/6ba4f791ca4aa61e43e2fc0372067008c96f7dea1b5ab8ece6000515618be67e.json",
+      "output_html_relpath": "articles/2003/05/26/02-fnT8077259afbfe.html",
       "tag_list": [
         "tag-1",
         "tag-2"
@@ -115,9 +135,11 @@
       "yyyymmdd": "2003-05-26"
     },
     {
+      "article_id": "95885d2d4094381c44549d7b32659ed19e46f911a29a44711b74233b982ee640",
       "filename": "01-fnT7d38d9198b2c.html",
       "order": 1,
-      "output_relpath": "articles/2003/05/31/01-fnT7d38d9198b2c.html",
+      "output_data_relpath": "datas/articles/95/95885d2d4094381c44549d7b32659ed19e46f911a29a44711b74233b982ee640.json",
+      "output_html_relpath": "articles/2003/05/31/01-fnT7d38d9198b2c.html",
       "tag_list": [
         "tag-1",
         "tag-2"

@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "ae71c19da6196250886a932f3bb1bd44a9317e520347320845ab68b563205a1c",
       "filename": "02-2002-03-01-02-T318ff2eadeeb.html",
       "order": 2,
-      "output_relpath": "articles/2002/03/01/02-2002-03-01-02-T318ff2eadeeb.html",
+      "output_data_relpath": "datas/articles/ae/ae71c19da6196250886a932f3bb1bd44a9317e520347320845ab68b563205a1c.json",
+      "output_html_relpath": "articles/2002/03/01/02-2002-03-01-02-T318ff2eadeeb.html",
       "tag_list": [
         "tag-0",
         "tag-1",
@@ -13,9 +15,11 @@
       "yyyymmdd": "2002-03-01"
     },
     {
+      "article_id": "b19ac9d41ece6bdad9e7b79f54b0dea77179844f03c98c679b6398fa95d277a4",
       "filename": "01-fnT5a1c19d4c80d.html",
       "order": 1,
-      "output_relpath": "articles/2002/03/21/01-fnT5a1c19d4c80d.html",
+      "output_data_relpath": "datas/articles/b1/b19ac9d41ece6bdad9e7b79f54b0dea77179844f03c98c679b6398fa95d277a4.json",
+      "output_html_relpath": "articles/2002/03/21/01-fnT5a1c19d4c80d.html",
       "tag_list": [
         "tag-0",
         "tag-1"
@@ -24,9 +28,11 @@
       "yyyymmdd": "2002-03-21"
     },
     {
+      "article_id": "42adcd4c30f4cbef08767746437077ef8d8a5a83fd9b9d5450032fb91e0d1a59",
       "filename": "00-2002-03-26-00-Tb90d8ec9c084.html",
       "order": 0,
-      "output_relpath": "articles/2002/03/26/00-2002-03-26-00-Tb90d8ec9c084.html",
+      "output_data_relpath": "datas/articles/42/42adcd4c30f4cbef08767746437077ef8d8a5a83fd9b9d5450032fb91e0d1a59.json",
+      "output_html_relpath": "articles/2002/03/26/00-2002-03-26-00-Tb90d8ec9c084.html",
       "tag_list": [
         "tag-0",
         "tag-3"
@@ -35,9 +41,11 @@
       "yyyymmdd": "2002-03-26"
     },
     {
+      "article_id": "ded87d7085e108db1fceb8209e5bf329269b0648bea812916fb1792341ce045d",
       "filename": "00-2002-03-30-00-T2ea025a4536c.html",
       "order": 0,
-      "output_relpath": "articles/2002/03/30/00-2002-03-30-00-T2ea025a4536c.html",
+      "output_data_relpath": "datas/articles/de/ded87d7085e108db1fceb8209e5bf329269b0648bea812916fb1792341ce045d.json",
+      "output_html_relpath": "articles/2002/03/30/00-2002-03-30-00-T2ea025a4536c.html",
       "tag_list": [
         "tag-0"
       ],

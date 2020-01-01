@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "b87c0026f51ddbe36628551874eea9923b01afb41eb6ad612f019b80e3de76ea",
       "filename": "00-fnTeb377757c791.html",
       "order": 0,
-      "output_relpath": "articles/2000/08/11/00-fnTeb377757c791.html",
+      "output_data_relpath": "datas/articles/b8/b87c0026f51ddbe36628551874eea9923b01afb41eb6ad612f019b80e3de76ea.json",
+      "output_html_relpath": "articles/2000/08/11/00-fnTeb377757c791.html",
       "tag_list": [
         "tag-0",
         "tag-1",
@@ -13,9 +15,11 @@
       "yyyymmdd": "2000-08-11"
     },
     {
+      "article_id": "23d2fcc709286335a449c6669f6deb9c055238c66735b30ed668955e5c68d4cc",
       "filename": "02-2000-08-11-02-Tba482fa110a4.html",
       "order": 2,
-      "output_relpath": "articles/2000/08/11/02-2000-08-11-02-Tba482fa110a4.html",
+      "output_data_relpath": "datas/articles/23/23d2fcc709286335a449c6669f6deb9c055238c66735b30ed668955e5c68d4cc.json",
+      "output_html_relpath": "articles/2000/08/11/02-2000-08-11-02-Tba482fa110a4.html",
       "tag_list": [
         "tag-0",
         "tag-1",
@@ -25,9 +29,11 @@
       "yyyymmdd": "2000-08-11"
     },
     {
+      "article_id": "551b9fb32235856a7443d9fea48d1beced2a054028c630521c802c4c09ed7ab6",
       "filename": "02-fnTb6fd1a359f2e.html",
       "order": 2,
-      "output_relpath": "articles/2000/08/26/02-fnTb6fd1a359f2e.html",
+      "output_data_relpath": "datas/articles/55/551b9fb32235856a7443d9fea48d1beced2a054028c630521c802c4c09ed7ab6.json",
+      "output_html_relpath": "articles/2000/08/26/02-fnTb6fd1a359f2e.html",
       "tag_list": [
         "tag-1",
         "tag-2"
@@ -36,9 +42,11 @@
       "yyyymmdd": "2000-08-26"
     },
     {
+      "article_id": "df2cf03010ff12e9fd3c0aa92077916557dae6e673eed09046acdf61a377db13",
       "filename": "02-fnT0dc0650e8a8f.html",
       "order": 2,
-      "output_relpath": "articles/2000/08/28/02-fnT0dc0650e8a8f.html",
+      "output_data_relpath": "datas/articles/df/df2cf03010ff12e9fd3c0aa92077916557dae6e673eed09046acdf61a377db13.json",
+      "output_html_relpath": "articles/2000/08/28/02-fnT0dc0650e8a8f.html",
       "tag_list": [
         "tag-1"
       ],

@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "43ebc75cc7c3d80c83153308a49a1be966ead6405369382afbd396de2dc6041c",
       "filename": "02-2002-05-04-02-T908e0afbb58f.html",
       "order": 2,
-      "output_relpath": "articles/2002/05/04/02-2002-05-04-02-T908e0afbb58f.html",
+      "output_data_relpath": "datas/articles/43/43ebc75cc7c3d80c83153308a49a1be966ead6405369382afbd396de2dc6041c.json",
+      "output_html_relpath": "articles/2002/05/04/02-2002-05-04-02-T908e0afbb58f.html",
       "tag_list": [
         "tag-0",
         "tag-2"

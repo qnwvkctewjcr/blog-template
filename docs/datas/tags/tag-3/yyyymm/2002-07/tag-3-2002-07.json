@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "afb8a57d705b93a0a430b94d68ad38655ecc47518034613af061b957e1e29c09",
       "filename": "00-fnT47dd557c13f3.html",
       "order": 0,
-      "output_relpath": "articles/2002/07/02/00-fnT47dd557c13f3.html",
+      "output_data_relpath": "datas/articles/af/afb8a57d705b93a0a430b94d68ad38655ecc47518034613af061b957e1e29c09.json",
+      "output_html_relpath": "articles/2002/07/02/00-fnT47dd557c13f3.html",
       "tag_list": [
         "tag-1",
         "tag-3"
@@ -12,9 +14,11 @@
       "yyyymmdd": "2002-07-02"
     },
     {
+      "article_id": "041b3b9a0f6b05363a28bb01da2b6602575ac32d7f4c11c6f56efa2f747498a2",
       "filename": "02-2002-07-12-02-T1b26cbc1b486.html",
       "order": 2,
-      "output_relpath": "articles/2002/07/12/02-2002-07-12-02-T1b26cbc1b486.html",
+      "output_data_relpath": "datas/articles/04/041b3b9a0f6b05363a28bb01da2b6602575ac32d7f4c11c6f56efa2f747498a2.json",
+      "output_html_relpath": "articles/2002/07/12/02-2002-07-12-02-T1b26cbc1b486.html",
       "tag_list": [
         "tag-0",
         "tag-2",
@@ -24,9 +28,11 @@
       "yyyymmdd": "2002-07-12"
     },
     {
+      "article_id": "de5db86afb5a813ff2dd86e4988b296865875e6e436d66ec750999aa96d5394a",
       "filename": "00-fnT23bf33289f16.html",
       "order": 0,
-      "output_relpath": "articles/2002/07/13/00-fnT23bf33289f16.html",
+      "output_data_relpath": "datas/articles/de/de5db86afb5a813ff2dd86e4988b296865875e6e436d66ec750999aa96d5394a.json",
+      "output_html_relpath": "articles/2002/07/13/00-fnT23bf33289f16.html",
       "tag_list": [
         "tag-0",
         "tag-2",
@@ -36,9 +42,11 @@
       "yyyymmdd": "2002-07-13"
     },
     {
+      "article_id": "c4702a0eae65ac3e1ddb0f1c1148b0df00fcbfaa57e663baf9690e3ff59f7a05",
       "filename": "02-fnT079197e31a4b.html",
       "order": 2,
-      "output_relpath": "articles/2002/07/13/02-fnT079197e31a4b.html",
+      "output_data_relpath": "datas/articles/c4/c4702a0eae65ac3e1ddb0f1c1148b0df00fcbfaa57e663baf9690e3ff59f7a05.json",
+      "output_html_relpath": "articles/2002/07/13/02-fnT079197e31a4b.html",
       "tag_list": [
         "tag-3"
       ],
@@ -46,9 +54,11 @@
       "yyyymmdd": "2002-07-13"
     },
     {
+      "article_id": "16f386cbb7448260a9afb63550091cff971dfc244c2a75d76b5e27649166546d",
       "filename": "02-fnT087230ed898e.html",
       "order": 2,
-      "output_relpath": "articles/2002/07/26/02-fnT087230ed898e.html",
+      "output_data_relpath": "datas/articles/16/16f386cbb7448260a9afb63550091cff971dfc244c2a75d76b5e27649166546d.json",
+      "output_html_relpath": "articles/2002/07/26/02-fnT087230ed898e.html",
       "tag_list": [
         "tag-0",
         "tag-2",
@@ -58,9 +68,11 @@
       "yyyymmdd": "2002-07-26"
     },
     {
+      "article_id": "ce3869881d11b1a9305a7e8393c06a03a23e8c20cd367faabc6dad271f2edfc8",
       "filename": "00-2002-07-27-00-T233fb2646321.html",
       "order": 0,
-      "output_relpath": "articles/2002/07/27/00-2002-07-27-00-T233fb2646321.html",
+      "output_data_relpath": "datas/articles/ce/ce3869881d11b1a9305a7e8393c06a03a23e8c20cd367faabc6dad271f2edfc8.json",
+      "output_html_relpath": "articles/2002/07/27/00-2002-07-27-00-T233fb2646321.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -69,9 +81,11 @@
       "yyyymmdd": "2002-07-27"
     },
     {
+      "article_id": "b4ac9be72c2b066c52b859b3bbed25efe41a0a8132e3b7cf6b453791ec9ffa7a",
       "filename": "00-2002-07-31-00-Tc7fca941f7a4.html",
       "order": 0,
-      "output_relpath": "articles/2002/07/31/00-2002-07-31-00-Tc7fca941f7a4.html",
+      "output_data_relpath": "datas/articles/b4/b4ac9be72c2b066c52b859b3bbed25efe41a0a8132e3b7cf6b453791ec9ffa7a.json",
+      "output_html_relpath": "articles/2002/07/31/00-2002-07-31-00-Tc7fca941f7a4.html",
       "tag_list": [
         "tag-0",
         "tag-2",
@@ -81,9 +95,11 @@
       "yyyymmdd": "2002-07-31"
     },
     {
+      "article_id": "1f5b1aba9a581ddac2308844346ae02eb79cd07144fbe48a1f40879eda246478",
       "filename": "02-fnTcc2c826178c4.html",
       "order": 2,
-      "output_relpath": "articles/2002/07/31/02-fnTcc2c826178c4.html",
+      "output_data_relpath": "datas/articles/1f/1f5b1aba9a581ddac2308844346ae02eb79cd07144fbe48a1f40879eda246478.json",
+      "output_html_relpath": "articles/2002/07/31/02-fnTcc2c826178c4.html",
       "tag_list": [
         "tag-1",
         "tag-3"

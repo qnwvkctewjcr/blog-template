@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "71806fdd6d260b9a91edc4edacd3389616f53e27cc4d41166512294267cef2df",
       "filename": "00-fnTe6e2e935761f.html",
       "order": 0,
-      "output_relpath": "articles/2000/09/02/00-fnTe6e2e935761f.html",
+      "output_data_relpath": "datas/articles/71/71806fdd6d260b9a91edc4edacd3389616f53e27cc4d41166512294267cef2df.json",
+      "output_html_relpath": "articles/2000/09/02/00-fnTe6e2e935761f.html",
       "tag_list": [
         "tag-3"
       ],
@@ -11,9 +13,11 @@
       "yyyymmdd": "2000-09-02"
     },
     {
+      "article_id": "2619ae78fe911174577c7fc13872e2cdd327470fb2f804eb2c5538306206db8a",
       "filename": "02-fnTf856fecf1bb7.html",
       "order": 2,
-      "output_relpath": "articles/2000/09/04/02-fnTf856fecf1bb7.html",
+      "output_data_relpath": "datas/articles/26/2619ae78fe911174577c7fc13872e2cdd327470fb2f804eb2c5538306206db8a.json",
+      "output_html_relpath": "articles/2000/09/04/02-fnTf856fecf1bb7.html",
       "tag_list": [
         "tag-0",
         "tag-3"
@@ -22,9 +26,11 @@
       "yyyymmdd": "2000-09-04"
     },
     {
+      "article_id": "bb99df0a5a2f165f627cfd00c0c1038753ba4072320d0decbd3cf6ea4d228484",
       "filename": "01-fnTb2295695423c.html",
       "order": 1,
-      "output_relpath": "articles/2000/09/19/01-fnTb2295695423c.html",
+      "output_data_relpath": "datas/articles/bb/bb99df0a5a2f165f627cfd00c0c1038753ba4072320d0decbd3cf6ea4d228484.json",
+      "output_html_relpath": "articles/2000/09/19/01-fnTb2295695423c.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -33,9 +39,11 @@
       "yyyymmdd": "2000-09-19"
     },
     {
+      "article_id": "88ce9d4aaef16ec6505ad57d90b345b4bddaca80eafb06912f98c8a3cfdc7f45",
       "filename": "00-2000-09-26-00-T3a415832917b.html",
       "order": 0,
-      "output_relpath": "articles/2000/09/26/00-2000-09-26-00-T3a415832917b.html",
+      "output_data_relpath": "datas/articles/88/88ce9d4aaef16ec6505ad57d90b345b4bddaca80eafb06912f98c8a3cfdc7f45.json",
+      "output_html_relpath": "articles/2000/09/26/00-2000-09-26-00-T3a415832917b.html",
       "tag_list": [
         "tag-1",
         "tag-3"

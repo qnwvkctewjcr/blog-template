@@ -1,9 +1,11 @@
 {
   "article_data_list": [
     {
+      "article_id": "95568869a55c712fa1dc33b6cf4258f118d4f9ca87186d0a943120f274538dd2",
       "filename": "02-2000-01-02-02-T7b5d1f4b094d.html",
       "order": 2,
-      "output_relpath": "articles/2000/01/02/02-2000-01-02-02-T7b5d1f4b094d.html",
+      "output_data_relpath": "datas/articles/95/95568869a55c712fa1dc33b6cf4258f118d4f9ca87186d0a943120f274538dd2.json",
+      "output_html_relpath": "articles/2000/01/02/02-2000-01-02-02-T7b5d1f4b094d.html",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -12,9 +14,11 @@
       "yyyymmdd": "2000-01-02"
     },
     {
+      "article_id": "08098084a7606f716700c78a46d782f39dbc12aa08cd4b42e0a9f616f7ffbfdb",
       "filename": "00-fnTaaa8a153ffe4.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/11/00-fnTaaa8a153ffe4.html",
+      "output_data_relpath": "datas/articles/08/08098084a7606f716700c78a46d782f39dbc12aa08cd4b42e0a9f616f7ffbfdb.json",
+      "output_html_relpath": "articles/2000/01/11/00-fnTaaa8a153ffe4.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -23,9 +27,11 @@
       "yyyymmdd": "2000-01-11"
     },
     {
+      "article_id": "25c66b141620b588077f03068eb5c17f03a8677168701b06e61a7da2f200e32e",
       "filename": "01-fnT8c786e140cf2.html",
       "order": 1,
-      "output_relpath": "articles/2000/01/11/01-fnT8c786e140cf2.html",
+      "output_data_relpath": "datas/articles/25/25c66b141620b588077f03068eb5c17f03a8677168701b06e61a7da2f200e32e.json",
+      "output_html_relpath": "articles/2000/01/11/01-fnT8c786e140cf2.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -34,9 +40,11 @@
       "yyyymmdd": "2000-01-11"
     },
     {
+      "article_id": "b4512d7bd05423331b820a9f30e7cba7d84958f16b067ec040cfae4accbca703",
       "filename": "00-fnTd235820ea1a7.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/25/00-fnTd235820ea1a7.html",
+      "output_data_relpath": "datas/articles/b4/b4512d7bd05423331b820a9f30e7cba7d84958f16b067ec040cfae4accbca703.json",
+      "output_html_relpath": "articles/2000/01/25/00-fnTd235820ea1a7.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -45,9 +53,11 @@
       "yyyymmdd": "2000-01-25"
     },
     {
+      "article_id": "bf56e0b7b0c5e564e7ad3dbd43d90f52d08f6ff1fbfc0b51f91808322b5d632b",
       "filename": "00-fnTab2aaa885cec.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/26/00-fnTab2aaa885cec.html",
+      "output_data_relpath": "datas/articles/bf/bf56e0b7b0c5e564e7ad3dbd43d90f52d08f6ff1fbfc0b51f91808322b5d632b.json",
+      "output_html_relpath": "articles/2000/01/26/00-fnTab2aaa885cec.html",
       "tag_list": [
         "tag-0",
         "tag-2",
@@ -57,9 +67,11 @@
       "yyyymmdd": "2000-01-26"
     },
     {
+      "article_id": "e3c9bdf7633a31b8a33c8e85265e19c12d2cd7c0184d74e45b5d961cafa31c12",
       "filename": "00-fnT1bd13ef89deb.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/31/00-fnT1bd13ef89deb.html",
+      "output_data_relpath": "datas/articles/e3/e3c9bdf7633a31b8a33c8e85265e19c12d2cd7c0184d74e45b5d961cafa31c12.json",
+      "output_html_relpath": "articles/2000/01/31/00-fnT1bd13ef89deb.html",
       "tag_list": [
         "tag-0",
         "tag-2"

@@ -1,5 +1,6 @@
 import argparse
 import datetime
+import hashlib
 import itertools
 import jinja2
 import jinja2.meta
@@ -45,13 +46,19 @@ def main(profile=None):
         filename = f'{order:02d}-{filename}'
         article_data['filename'] = filename
         # output_basename = os.path.basename(article_data['input_abspath'])[:-6]
-        article_data['output_relpath'] = os.path.join('articles',yyyy,mm,dd,article_data['filename'])
-        article_data['output_abspath'] = os.path.join(docs_output_path,article_data['output_relpath'])
-        article_data['j'] = { k : article_data[k] for k in ['yyyymmdd','order','tag_list','output_relpath','title','filename'] }
+        article_data['output_html_relpath'] = os.path.join('articles',yyyy,mm,dd,article_data['filename'])
+        article_data['output_html_abspath'] = os.path.join(docs_output_path,article_data['output_html_relpath'])
+
+        article_id = sha256(article_data['output_html_relpath'])
+        article_data['article_id'] = article_id
+        article_data['output_data_relpath'] = os.path.join('datas','articles',article_id[:2],f'{article_id}.json')
+        article_data['output_data_abspath'] = os.path.join(docs_output_path,article_data['output_data_relpath'])
+
+        article_data['j'] = { k : article_data[k] for k in ['yyyymmdd','order','tag_list','output_html_relpath','output_data_relpath','title','filename','article_id'] }
         # print(article_data)
 
-    # check same output_abspath
-    output_abspath_to_article_data_list = to_list_dict(lambda i: i['output_abspath'], article_data_list)
+    # check same output_html_abspath
+    output_abspath_to_article_data_list = to_list_dict(lambda i: i['output_html_abspath'], article_data_list)
     output_abspath_to_article_data_list = output_abspath_to_article_data_list.items()
     output_abspath_to_article_data_list = filter(lambda i:len(i[1])>1, output_abspath_to_article_data_list)
     output_abspath_to_article_data_list = list(output_abspath_to_article_data_list)
@@ -64,16 +71,21 @@ def main(profile=None):
     for article_data in article_data_list:
         render_param = { 'URL_ROOT': URL_ROOT }
 
-        output_abspath = article_data['output_abspath']
-        output_abspath_dirname = os.path.dirname(output_abspath)
-        makedirs(output_abspath_dirname)
+        output_html_abspath = article_data['output_html_abspath']
+        output_html_abspath_dirname = os.path.dirname(output_html_abspath)
+        makedirs(output_html_abspath_dirname)
 
         article_block_template = template_env.get_template(article_data['input_relpath'])
         article_block = article_block_template.render(**render_param)
         render_param['article_block'] = article_block
 
         article_template = template_env.get_template('article_page.html.jinja')
-        article_template.stream(**render_param,**(article_block_template.module.__dict__)).dump(output_abspath)
+        article_template.stream(**render_param,**(article_block_template.module.__dict__)).dump(output_html_abspath)
+        
+        data = article_data['j']
+        data = dict(data)
+        data['content_html'] = article_block
+        write_json(article_data['output_data_abspath'], data)
 
     # build index
     template_env.get_template('index.html.jinja') \
@@ -194,6 +206,11 @@ def copy_tree(src, dst):
             tar_abspath = os.path.join(dst, relpath)
             makedirs(os.path.dirname(tar_abspath))
             shutil.copy(src_abspath, tar_abspath)
+
+def sha256(s):
+    m = hashlib.sha256()
+    m.update(s.encode('utf8'))
+    return m.hexdigest()
 
 parser = argparse.ArgumentParser()
 parser.add_argument('profile', nargs='?')
