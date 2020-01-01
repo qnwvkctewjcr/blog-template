@@ -56,7 +56,7 @@ def main():
     # for yyyymm
     yyyymm_to_article_data_list = to_list_dict(lambda i: i['yyyymm'], article_data_list)
     for yyyymm, _article_data_list in yyyymm_to_article_data_list.items():
-        j_path = os.path.join(docs_output_path,'datas','yyyymm',f'{yyyymm}.json')
+        j_path = os.path.join(docs_output_path,'datas','yyyymms',f'{yyyymm}.json')
         __article_data_list = _article_data_list
         __article_data_list = list(map(lambda i:i['j'], __article_data_list))
         __article_data_list.sort(key=lambda i:(i['yyyymmdd'],i['order']))
