@@ -11,7 +11,7 @@ def main():
     template_loader = jinja2.FileSystemLoader(searchpath=['templates','blogs'])
     template_env = jinja2.Environment(loader=template_loader)
     blog_input_path = os.path.join(MY_PATH, 'blogs')
-    site_output_path = os.path.join(MY_PATH, 'site')
+    docs_output_path = os.path.join(MY_PATH, 'docs')
 
     article_data_list = find_file(blog_input_path)
     article_data_list = filter(lambda i:i.endswith('.html.jinja'),article_data_list)
@@ -26,7 +26,7 @@ def main():
         mm = article_data['datetime'].strftime('%m')
         article_data['yyyymm'] = article_data['datetime'].strftime('%Y-%m')
         output_basename = os.path.basename(article_data['input_abspath'])[:-6]
-        article_data['output_abspath'] = os.path.join(site_output_path,'blogs',yyyy,mm,output_basename)
+        article_data['output_abspath'] = os.path.join(docs_output_path,'blogs',yyyy,mm,output_basename)
         # print(article_data)
 
     # check same output_abspath
