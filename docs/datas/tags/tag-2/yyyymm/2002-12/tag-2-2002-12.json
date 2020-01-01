@@ -6,6 +6,7 @@
       "order": 0,
       "output_data_relpath": "datas/articles/57/572e8032d9ba2eba686569e69c3483a71010158de647f950e7bcacf4f46992ea.json",
       "output_html_relpath": "articles/2002/12/01/000-fnTace8c1439c29.html",
+      "sort_key": "2002-12-01-000-572e8032d9ba2eba686569e69c3483a71010158de647f950e7bcacf4f46992ea",
       "tag_list": [
         "tag-0",
         "tag-1",
@@ -21,6 +22,7 @@
       "order": 0,
       "output_data_relpath": "datas/articles/15/15ecc21b649e5d5cc96b758e42165694fd0d023fcda939824fad82ab564fc3c1.json",
       "output_html_relpath": "articles/2002/12/16/000-T6fa47a1c59b5.html",
+      "sort_key": "2002-12-16-000-15ecc21b649e5d5cc96b758e42165694fd0d023fcda939824fad82ab564fc3c1",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -34,6 +36,7 @@
       "order": 2,
       "output_data_relpath": "datas/articles/26/268b0fb6dd2de33a91c5f29b911fc69cea5de574638287dcf5e7d0e5db17775e.json",
       "output_html_relpath": "articles/2002/12/16/002-T83dd7a9af5e4.html",
+      "sort_key": "2002-12-16-002-268b0fb6dd2de33a91c5f29b911fc69cea5de574638287dcf5e7d0e5db17775e",
       "tag_list": [
         "tag-0",
         "tag-1",
@@ -49,6 +52,7 @@
       "order": 0,
       "output_data_relpath": "datas/articles/c3/c3815c5306acafe0462b4810f703495f76016c784e7c2c3caa84856c93264996.json",
       "output_html_relpath": "articles/2002/12/20/000-fnTc241ff285df1.html",
+      "sort_key": "2002-12-20-000-c3815c5306acafe0462b4810f703495f76016c784e7c2c3caa84856c93264996",
       "tag_list": [
         "tag-2"
       ],

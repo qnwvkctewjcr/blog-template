@@ -8,6 +8,8 @@
             $(window).resize(contentListCheckTick);
             contentListCheckTick();
         });
+        
+        var contentListCheckTickLastSortKey = null;
         var contentListCheckTickBusy = false;
         function contentListCheckTick(){
             if(contentListCheckTickBusy)return;
@@ -18,13 +20,22 @@
             if(scrollTop+windowHeight+windowHeight<contentListHeight) return;
             contentListCheckTickBusy = true;
             
-            getLatestArticleMetadataPromise()
+            Promise.resolve()
+            .then(function(){
+                if(contentListCheckTickLastSortKey==null){
+                    return getLatestArticleMetadataPromise();
+                }else{
+                    return getPreviousArticleMetadataPromise(contentListCheckTickLastSortKey);
+                }
+            })
             .then(function(data){
                 return $.getJSON(URL_ROOT+"/"+data["output_data_relpath"]);
-            }).then(function(data){
+            })
+            .then(function(data){
                 var content_html = data["content_html"];
                 var article_div = $("<div/>").html(content_html);
                 $("#content_list").append(article_div);
+                contentListCheckTickLastSortKey = data["sort_key"];
                 contentListCheckTickBusy = false;
                 contentListCheckTick();
             });

@@ -40,6 +40,7 @@ def main(profile=None):
         yyyy = article_data['datetime'].strftime('%Y')
         mm = article_data['datetime'].strftime('%m')
         dd = article_data['datetime'].strftime('%d')
+        yyyymmdd = article_data['datetime'].strftime('%Y-%m-%d')
         article_data['yyyymm'] = article_data['datetime'].strftime('%Y-%m')
         filename = article_template.module.filename if hasattr(article_template.module,'filename') else \
                    article_data['title']
@@ -51,10 +52,17 @@ def main(profile=None):
 
         article_id = sha256(article_data['output_html_relpath'])
         article_data['article_id'] = article_id
+
+        article_data['sort_key'] = f'{yyyymmdd}-{order:03d}-{article_id}'
+
         article_data['output_data_relpath'] = os.path.join('datas','articles',article_id[:2],f'{article_id}.json')
         article_data['output_data_abspath'] = os.path.join(docs_output_path,article_data['output_data_relpath'])
 
-        article_data['j'] = { k : article_data[k] for k in ['yyyymmdd','order','tag_list','output_html_relpath','output_data_relpath','title','filename','article_id'] }
+        article_data['j'] = { k : article_data[k] for k in [
+            'yyyymmdd','order','tag_list','output_html_relpath',
+            'output_data_relpath','title','filename','article_id',
+            'sort_key'
+        ]}
         # print(article_data)
 
     # check same output_html_abspath

@@ -6,6 +6,7 @@
       "order": 0,
       "output_data_relpath": "datas/articles/a1/a11005e78269af4350ecaaa9a78213ef962ee667db9152c6d41b71dc8b873753.json",
       "output_html_relpath": "articles/2003/10/18/000-fnTc008a04a4916.html",
+      "sort_key": "2003-10-18-000-a11005e78269af4350ecaaa9a78213ef962ee667db9152c6d41b71dc8b873753",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -19,6 +20,7 @@
       "order": 1,
       "output_data_relpath": "datas/articles/ba/bafa8b2aa59956b40d0ccf93b03db5c77e9a1c9924bf92e1208f03043d1eaf3c.json",
       "output_html_relpath": "articles/2003/10/31/001-T87238d78dfbb.html",
+      "sort_key": "2003-10-31-001-bafa8b2aa59956b40d0ccf93b03db5c77e9a1c9924bf92e1208f03043d1eaf3c",
       "tag_list": [
         "tag-2",
         "tag-3"
