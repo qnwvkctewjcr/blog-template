@@ -1,69 +1,78 @@
-function getLatestArticleMetadataPromise(){
-    return $.getJSON(URL_ROOT+"/datas/data.json")
-        .then(function(data){
-            //console.log(data);
-            
-            var yyyymm_to_data_dict = data["yyyymm_to_data_dict"];
-            //console.log(Object.keys(yyyymm_to_data_dict));
-    
-            var max_yyyymm = Object.keys(yyyymm_to_data_dict);
-            max_yyyymm = max_yyyymm.sort();
-            max_yyyymm = max_yyyymm[max_yyyymm.length-1];
-            //console.log(max_yyyymm);
-    
-            return $.getJSON(URL_ROOT+"/"+yyyymm_to_data_dict[max_yyyymm]["data_path"]);
-        })
-        .then(function(data){
-            //console.log(data);
-            
-            var article_data_list = data["article_data_list"];
-            
-            var ret = article_data_list[article_data_list.length-1];
-            
-            return ret;
-        });
-}
+class ArticleMetadataReverseYield{
 
-function getPreviousArticleMetadataPromise(sortKey){
-    var yyyymm = sortKey.substring(0,7);
-    var dataPath = null;
-    var dataPath1 = null;
-    return $.getJSON(URL_ROOT+"/datas/data.json")
-        .then(function(data){
-            var yyyymm_to_data_dict = data["yyyymm_to_data_dict"];
-            
-            dataPath = yyyymm_to_data_dict[yyyymm]["data_path"];
-            
-            var yyyymmList = Object.keys(yyyymm_to_data_dict);
-            var yyyymm1=null;
-            for(var ki in yyyymmList){
-                var k = yyyymmList[ki];
-                if(k>=yyyymm)continue;
-                if((yyyymm1!=null)&&(k<yyyymm1))continue;
-                yyyymm1 = k;
-            }
-            dataPath1 = yyyymm_to_data_dict[yyyymm1]["data_path"];
-            
-            return $.getJSON(URL_ROOT+"/"+dataPath);
-        })
-        .then(function(data){
-            var article_data_list = data["article_data_list"];
-            
-            var best_article_data = null;
-            for(var i in article_data_list){
-                var article_data = article_data_list[i];
-                if(article_data["sort_key"]>=sortKey)continue;
-                if((best_article_data!=null)&&(article_data["sort_key"]<best_article_data["sort_key"]))continue;
-                best_article_data = article_data;
-            }
-            
-            if(best_article_data!=null)return best_article_data;
-            
-            return $.getJSON(URL_ROOT+"/"+dataPath1)
-                .then(function(data){
-                    var article_data_list = data["article_data_list"];
-                    var ret = article_data_list[article_data_list.length-1];
-                    return ret;
-                });
+    constructor(rootDataUrl){
+        var self = this;
+        self.rootDataUrl = rootDataUrl;
+
+        self.yyyymm_to_data_dict = null;
+        self.yyyymmListLen = null;
+
+        self.article_data_list = null;
+        self.articleDataListLen = null;
+        
+        self.done = false;
+    }
+
+    nextPromise(){
+        var self = this;
+        return Promise.resolve()
+        .then(function(){
+            return self._nextPromise_popArticleDataList();
         });
+    }
+    
+    _nextPromise_popArticleDataList(){
+        var self = this;
+        if(self.article_data_list==null) return self._nextPromise_popYyyymmList();
+        if(self.articleDataListLen<=0) return self._nextPromise_popYyyymmList();
+        var ret = self.article_data_list[self.articleDataListLen-1];
+        self.articleDataListLen -= 1;
+        return ret;
+    }
+    
+    _nextPromise_popYyyymmList(){
+        var self = this;
+        if(self.yyyymm_to_data_dict==null) return self._nextPromise_loadRootData();
+        if(self.yyyymmListLen<=0) return Promise.reject("ArticleMetadataReverseYield.DONE");
+        var yyyymmList = Object.keys(self.yyyymm_to_data_dict);
+        yyyymmList = yyyymmList.sort();
+        var yyyymm = yyyymmList[self.yyyymmListLen-1];
+        var data_path = self.yyyymm_to_data_dict[yyyymm]["data_path"];
+        self.yyyymmListLen-=1;
+        return jsonPromise(URL_ROOT+"/"+data_path)
+            .then(function(data){
+                self.article_data_list = data["article_data_list"];
+                self.articleDataListLen = self.article_data_list.length;
+                return self._nextPromise_popArticleDataList();
+            });
+    }
+    
+    _nextPromise_loadRootData(){
+        var self = this;
+        return jsonPromise(self.rootDataUrl)
+            .then(function(data){
+                self.yyyymm_to_data_dict = data["yyyymm_to_data_dict"];
+                self.yyyymmListLen = Object.keys(self.yyyymm_to_data_dict).length;
+                return self._nextPromise_popYyyymmList();
+            });
+    }
+
+    isDone(){
+        var self = this;
+        return self.done;
+    }
+
+};
+
+var localJsonCache = {};
+function jsonPromise(url){
+    return Promise.resolve()
+    .then(function(){
+        if(url in localJsonCache)return localJsonCache[url];
+        return $.getJSON(url)
+        .then(function(data){
+            localJsonCache[url]=data;
+            return data;
+        });
+    });
 }

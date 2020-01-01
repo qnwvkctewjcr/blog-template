@@ -16,7 +16,8 @@
             contentListCheckTick();
         });
         
-        var contentListCheckTickLastSortKey = null;
+        //var contentListCheckTickLastSortKey = null;
+        var articleMetadataReverseYield = new ArticleMetadataReverseYield(URL_ROOT+"/datas/data.json");
         var contentListCheckTickBusy = false;
         function contentListCheckTick(){
             if(contentListCheckTickBusy)return;
@@ -25,15 +26,31 @@
             var contentListHeight = $("#content_list").height();
             
             if(scrollTop+windowHeight+windowHeight<contentListHeight) return;
+            if(articleMetadataReverseYield.isDone()) return;
             contentListCheckTickBusy = true;
             
+            // Promise.resolve()
+            // .then(function(){
+            //     if(contentListCheckTickLastSortKey==null){
+            //         return getLatestArticleMetadataPromise();
+            //     }else{
+            //         return getPreviousArticleMetadataPromise(contentListCheckTickLastSortKey);
+            //     }
+            // })
+            // .then(function(data){
+            //     return $.getJSON(URL_ROOT+"/"+data["output_data_relpath"]);
+            // })
+            // .then(function(data){
+            //     var content_html = data["content_html"];
+            //     var article_div = $("<div/>").html(content_html);
+            //     $("#content_list").append(article_div);
+            //     contentListCheckTickLastSortKey = data["sort_key"];
+            //     contentListCheckTickBusy = false;
+            //     contentListCheckTick();
+            // });
             Promise.resolve()
             .then(function(){
-                if(contentListCheckTickLastSortKey==null){
-                    return getLatestArticleMetadataPromise();
-                }else{
-                    return getPreviousArticleMetadataPromise(contentListCheckTickLastSortKey);
-                }
+                return articleMetadataReverseYield.nextPromise();
             })
             .then(function(data){
                 return $.getJSON(URL_ROOT+"/"+data["output_data_relpath"]);
@@ -42,9 +59,16 @@
                 var content_html = data["content_html"];
                 var article_div = $("<div/>").html(content_html);
                 $("#content_list").append(article_div);
-                contentListCheckTickLastSortKey = data["sort_key"];
+                // contentListCheckTickLastSortKey = data["sort_key"];
                 contentListCheckTickBusy = false;
                 contentListCheckTick();
+            })
+            .catch(function(e){
+                if(e=="ArticleMetadataReverseYield.DONE"){
+                    contentListCheckTickBusy = false;
+                    return;
+                }
+                console.error(e);
             });
         }
     </script>
