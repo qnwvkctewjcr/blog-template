@@ -11,16 +11,19 @@
 <div id="content_list">
     <script>
         $(document).ready(function(){
-            $(window).scroll(checkTick);
-            $(window).resize(checkTick);
-            checkTick();
+            $(window).scroll(contentListCheckTick);
+            $(window).resize(contentListCheckTick);
+            contentListCheckTick();
         });
-        function checkTick(){
+        var contentListCheckTickBusy = false;
+        function contentListCheckTick(){
+            if(contentListCheckTickBusy)return;
             var scrollTop = document.documentElement.scrollTop;
             var windowHeight = $(window).height();
             var contentListHeight = $("#content_list").height();
             
             if(scrollTop+windowHeight+windowHeight<contentListHeight) return;
+            contentListCheckTickBusy = true;
             
             getLatestArticleMetadataPromise()
             .then(function(data){
@@ -29,7 +32,8 @@
                 var content_html = data["content_html"];
                 var article_div = $("<div/>").html(content_html);
                 $("#content_list").append(article_div);
-                checkTick();
+                contentListCheckTickBusy = false;
+                contentListCheckTick();
             });
         }
     </script>
