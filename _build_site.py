@@ -30,6 +30,7 @@ def main(profile=None):
     for article_data in article_data_list:
         article_data['input_relpath'] = os.path.relpath(article_data['input_abspath'], blog_input_path)
         article_template = template_env.get_template(article_data['input_relpath'])
+        article_data['filename'] = article_template.module.filename
         article_data['yyyymmdd'] = article_template.module.date
         article_data['datetime'] = datetime.datetime.strptime(article_template.module.date,'%Y-%m-%d')
         article_data['order'] = article_template.module.order
@@ -41,7 +42,7 @@ def main(profile=None):
         output_basename = os.path.basename(article_data['input_abspath'])[:-6]
         article_data['output_relpath'] = os.path.join('articles',yyyy,mm,output_basename)
         article_data['output_abspath'] = os.path.join(docs_output_path,article_data['output_relpath'])
-        article_data['j'] = { k : article_data[k] for k in ['yyyymmdd','order','tag_list','output_relpath','title'] }
+        article_data['j'] = { k : article_data[k] for k in ['yyyymmdd','order','tag_list','output_relpath','title','filename'] }
         # print(article_data)
 
     # check same output_abspath

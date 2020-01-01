@@ -1,6 +1,7 @@
 {
   "article_data_list": [
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/07/2002-07-01-02-Tc8e51484de6d.html",
       "tag_list": [
@@ -10,6 +11,7 @@
       "yyyymmdd": "2002-07-01"
     },
     {
+      "filename": null,
       "order": 0,
       "output_relpath": "articles/2002/07/2002-07-02-00-T47dd557c13f3.html",
       "tag_list": [
@@ -20,6 +22,7 @@
       "yyyymmdd": "2002-07-02"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/07/2002-07-02-02-T9d2e334b5b17.html",
       "tag_list": [
@@ -30,6 +33,7 @@
       "yyyymmdd": "2002-07-02"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/07/2002-07-12-02-T1b26cbc1b486.html",
       "tag_list": [
@@ -41,6 +45,7 @@
       "yyyymmdd": "2002-07-12"
     },
     {
+      "filename": null,
       "order": 0,
       "output_relpath": "articles/2002/07/2002-07-13-00-T23bf33289f16.html",
       "tag_list": [
@@ -52,6 +57,7 @@
       "yyyymmdd": "2002-07-13"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/07/2002-07-13-02-T079197e31a4b.html",
       "tag_list": [
@@ -61,6 +67,7 @@
       "yyyymmdd": "2002-07-13"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/07/2002-07-26-02-T087230ed898e.html",
       "tag_list": [
@@ -72,6 +79,7 @@
       "yyyymmdd": "2002-07-26"
     },
     {
+      "filename": null,
       "order": 0,
       "output_relpath": "articles/2002/07/2002-07-27-00-T233fb2646321.html",
       "tag_list": [
@@ -82,6 +90,7 @@
       "yyyymmdd": "2002-07-27"
     },
     {
+      "filename": null,
       "order": 0,
       "output_relpath": "articles/2002/07/2002-07-31-00-Tc7fca941f7a4.html",
       "tag_list": [
@@ -93,6 +102,7 @@
       "yyyymmdd": "2002-07-31"
     },
     {
+      "filename": null,
       "order": 1,
       "output_relpath": "articles/2002/07/2002-07-31-01-T9f0ab8882b90.html",
       "tag_list": [],
@@ -100,6 +110,7 @@
       "yyyymmdd": "2002-07-31"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/07/2002-07-31-02-Tcc2c826178c4.html",
       "tag_list": [

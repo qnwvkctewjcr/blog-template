@@ -1,6 +1,7 @@
 {
   "article_data_list": [
     {
+      "filename": null,
       "order": 1,
       "output_relpath": "articles/2002/06/2002-06-04-01-T80c10992e888.html",
       "tag_list": [
@@ -11,6 +12,7 @@
       "yyyymmdd": "2002-06-04"
     },
     {
+      "filename": null,
       "order": 1,
       "output_relpath": "articles/2002/06/2002-06-07-01-T78fe29a8babf.html",
       "tag_list": [
@@ -22,6 +24,7 @@
       "yyyymmdd": "2002-06-07"
     },
     {
+      "filename": null,
       "order": 0,
       "output_relpath": "articles/2002/06/2002-06-16-00-Tac81dac8ec08.html",
       "tag_list": [
@@ -32,6 +35,7 @@
       "yyyymmdd": "2002-06-16"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/06/2002-06-16-02-Tb3687a6b7ec7.html",
       "tag_list": [
@@ -42,6 +46,7 @@
       "yyyymmdd": "2002-06-16"
     },
     {
+      "filename": null,
       "order": 0,
       "output_relpath": "articles/2002/06/2002-06-23-00-Te790872dcaf8.html",
       "tag_list": [
@@ -54,6 +59,7 @@
       "yyyymmdd": "2002-06-23"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/06/2002-06-27-02-T35b626c91012.html",
       "tag_list": [
@@ -63,6 +69,7 @@
       "yyyymmdd": "2002-06-27"
     },
     {
+      "filename": null,
       "order": 2,
       "output_relpath": "articles/2002/06/2002-06-29-02-T688388ab99a3.html",
       "tag_list": [

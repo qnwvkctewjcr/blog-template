@@ -1,6 +1,7 @@
 {
   "article_data_list": [
     {
+      "filename": null,
       "order": 1,
       "output_relpath": "articles/2002/05/2002-05-04-01-T30b150317042.html",
       "tag_list": [
@@ -10,6 +11,7 @@
       "yyyymmdd": "2002-05-04"
     },
     {
+      "filename": null,
       "order": 1,
       "output_relpath": "articles/2002/05/2002-05-15-01-T577f8adf9010.html",
       "tag_list": [
