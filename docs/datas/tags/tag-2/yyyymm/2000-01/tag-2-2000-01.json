@@ -1,9 +1,9 @@
 {
   "article_data_list": [
     {
-      "filename": "2000-01-02-02-T7b5d1f4b094d.html",
+      "filename": "02-2000-01-02-02-T7b5d1f4b094d.html",
       "order": 2,
-      "output_relpath": "articles/2000/01/2000-01-02-02-T7b5d1f4b094d.html",
+      "output_relpath": "articles/2000/01/02/02-2000-01-02-02-T7b5d1f4b094d.html",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -12,9 +12,9 @@
       "yyyymmdd": "2000-01-02"
     },
     {
-      "filename": "2000-01-11-00-Taaa8a153ffe4.html",
+      "filename": "00-fnTaaa8a153ffe4.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/2000-01-11-00-Taaa8a153ffe4.html",
+      "output_relpath": "articles/2000/01/11/00-fnTaaa8a153ffe4.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -23,9 +23,9 @@
       "yyyymmdd": "2000-01-11"
     },
     {
-      "filename": "2000-01-11-01-T8c786e140cf2.html",
+      "filename": "01-fnT8c786e140cf2.html",
       "order": 1,
-      "output_relpath": "articles/2000/01/2000-01-11-01-T8c786e140cf2.html",
+      "output_relpath": "articles/2000/01/11/01-fnT8c786e140cf2.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -34,9 +34,9 @@
       "yyyymmdd": "2000-01-11"
     },
     {
-      "filename": "2000-01-25-00-Td235820ea1a7.html",
+      "filename": "00-fnTd235820ea1a7.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/2000-01-25-00-Td235820ea1a7.html",
+      "output_relpath": "articles/2000/01/25/00-fnTd235820ea1a7.html",
       "tag_list": [
         "tag-2",
         "tag-3"
@@ -45,9 +45,9 @@
       "yyyymmdd": "2000-01-25"
     },
     {
-      "filename": "2000-01-26-00-Tab2aaa885cec.html",
+      "filename": "00-fnTab2aaa885cec.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/2000-01-26-00-Tab2aaa885cec.html",
+      "output_relpath": "articles/2000/01/26/00-fnTab2aaa885cec.html",
       "tag_list": [
         "tag-0",
         "tag-2",
@@ -57,9 +57,9 @@
       "yyyymmdd": "2000-01-26"
     },
     {
-      "filename": "2000-01-31-00-T1bd13ef89deb.html",
+      "filename": "00-fnT1bd13ef89deb.html",
       "order": 0,
-      "output_relpath": "articles/2000/01/2000-01-31-00-T1bd13ef89deb.html",
+      "output_relpath": "articles/2000/01/31/00-fnT1bd13ef89deb.html",
       "tag_list": [
         "tag-0",
         "tag-2"

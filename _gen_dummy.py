@@ -11,6 +11,7 @@ YEAR_LIST = [2000,2002,2003]
 MONTH_CHANCE = 0.5
 DAY_CHANCE = 0.2
 ARTICLE_CHANCE = 0.5
+FILENAME_CHANCE = 0.5
 
 SHA_INT_END = int('f'*64,16)+1
 # print(SHA_INT_END)
@@ -44,6 +45,8 @@ def main():
                     fout.write('{% extends "article_block.jinja" %}\n')
                     fout.write('\n')
                     fout.write(f'{{% set date = "{yyyymmdd}" %}}\n')
+                    if good_hash_chance('filename'+date.strftime('%Y%m%d')+str(article_idx), FILENAME_CHANCE):
+                        fout.write(f'{{% set filename = "fn{title}" %}}\n')
                     fout.write(f'{{% set order = {article_idx} %}}\n')
                     fout.write(f'{{% set title = "{title}" %}}\n')
                     fout.write(f'{{% set tag_list = {tag_list} %}}\n')

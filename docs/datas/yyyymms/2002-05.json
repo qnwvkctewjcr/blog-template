@@ -1,9 +1,9 @@
 {
   "article_data_list": [
     {
-      "filename": "2002-05-04-01-T30b150317042.html",
+      "filename": "01-2002-05-04-01-T30b150317042.html",
       "order": 1,
-      "output_relpath": "articles/2002/05/2002-05-04-01-T30b150317042.html",
+      "output_relpath": "articles/2002/05/04/01-2002-05-04-01-T30b150317042.html",
       "tag_list": [
         "tag-3"
       ],
@@ -11,9 +11,9 @@
       "yyyymmdd": "2002-05-04"
     },
     {
-      "filename": "2002-05-04-02-T908e0afbb58f.html",
+      "filename": "02-2002-05-04-02-T908e0afbb58f.html",
       "order": 2,
-      "output_relpath": "articles/2002/05/2002-05-04-02-T908e0afbb58f.html",
+      "output_relpath": "articles/2002/05/04/02-2002-05-04-02-T908e0afbb58f.html",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -22,17 +22,17 @@
       "yyyymmdd": "2002-05-04"
     },
     {
-      "filename": "2002-05-14-00-T1d32a9de0a49.html",
+      "filename": "00-2002-05-14-00-T1d32a9de0a49.html",
       "order": 0,
-      "output_relpath": "articles/2002/05/2002-05-14-00-T1d32a9de0a49.html",
+      "output_relpath": "articles/2002/05/14/00-2002-05-14-00-T1d32a9de0a49.html",
       "tag_list": [],
       "title": "T1d32a9de0a49",
       "yyyymmdd": "2002-05-14"
     },
     {
-      "filename": "2002-05-14-01-Tc3130b2c1ac9.html",
+      "filename": "01-2002-05-14-01-Tc3130b2c1ac9.html",
       "order": 1,
-      "output_relpath": "articles/2002/05/2002-05-14-01-Tc3130b2c1ac9.html",
+      "output_relpath": "articles/2002/05/14/01-2002-05-14-01-Tc3130b2c1ac9.html",
       "tag_list": [
         "tag-2"
       ],
@@ -40,9 +40,9 @@
       "yyyymmdd": "2002-05-14"
     },
     {
-      "filename": "2002-05-15-01-T577f8adf9010.html",
+      "filename": "01-2002-05-15-01-T577f8adf9010.html",
       "order": 1,
-      "output_relpath": "articles/2002/05/2002-05-15-01-T577f8adf9010.html",
+      "output_relpath": "articles/2002/05/15/01-2002-05-15-01-T577f8adf9010.html",
       "tag_list": [
         "tag-1",
         "tag-3"
@@ -51,9 +51,9 @@
       "yyyymmdd": "2002-05-15"
     },
     {
-      "filename": "2002-05-15-02-T950caa882b75.html",
+      "filename": "02-2002-05-15-02-T950caa882b75.html",
       "order": 2,
-      "output_relpath": "articles/2002/05/2002-05-15-02-T950caa882b75.html",
+      "output_relpath": "articles/2002/05/15/02-2002-05-15-02-T950caa882b75.html",
       "tag_list": [
         "tag-1",
         "tag-2"

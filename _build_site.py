@@ -30,18 +30,22 @@ def main(profile=None):
     for article_data in article_data_list:
         article_data['input_relpath'] = os.path.relpath(article_data['input_abspath'], blog_input_path)
         article_template = template_env.get_template(article_data['input_relpath'])
-        article_data['filename'] = f'{article_template.module.filename}.html' if article_template.module.filename is not None else \
-                                   os.path.basename(article_data['input_abspath'])[:-6]
         article_data['yyyymmdd'] = article_template.module.date
         article_data['datetime'] = datetime.datetime.strptime(article_template.module.date,'%Y-%m-%d')
-        article_data['order'] = article_template.module.order
+        order = article_template.module.order
+        article_data['order'] = order
         article_data['title'] = article_template.module.title
         article_data['tag_list'] = article_template.module.tag_list
         yyyy = article_data['datetime'].strftime('%Y')
         mm = article_data['datetime'].strftime('%m')
+        dd = article_data['datetime'].strftime('%d')
         article_data['yyyymm'] = article_data['datetime'].strftime('%Y-%m')
+        filename = f'{article_template.module.filename}.html' if hasattr(article_template.module,'filename') else \
+                                   os.path.basename(article_data['input_abspath'])[:-6]
+        filename = f'{order:02d}-{filename}'
+        article_data['filename'] = filename
         # output_basename = os.path.basename(article_data['input_abspath'])[:-6]
-        article_data['output_relpath'] = os.path.join('articles',yyyy,mm,article_data['filename'])
+        article_data['output_relpath'] = os.path.join('articles',yyyy,mm,dd,article_data['filename'])
         article_data['output_abspath'] = os.path.join(docs_output_path,article_data['output_relpath'])
         article_data['j'] = { k : article_data[k] for k in ['yyyymmdd','order','tag_list','output_relpath','title','filename'] }
         # print(article_data)

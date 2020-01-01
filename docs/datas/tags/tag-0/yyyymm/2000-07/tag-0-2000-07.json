@@ -1,9 +1,9 @@
 {
   "article_data_list": [
     {
-      "filename": "2000-07-23-00-T11304af0c359.html",
+      "filename": "00-2000-07-23-00-T11304af0c359.html",
       "order": 0,
-      "output_relpath": "articles/2000/07/2000-07-23-00-T11304af0c359.html",
+      "output_relpath": "articles/2000/07/23/00-2000-07-23-00-T11304af0c359.html",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -12,9 +12,9 @@
       "yyyymmdd": "2000-07-23"
     },
     {
-      "filename": "2000-07-30-02-T342115153338.html",
+      "filename": "02-2000-07-30-02-T342115153338.html",
       "order": 2,
-      "output_relpath": "articles/2000/07/2000-07-30-02-T342115153338.html",
+      "output_relpath": "articles/2000/07/30/02-2000-07-30-02-T342115153338.html",
       "tag_list": [
         "tag-0"
       ],

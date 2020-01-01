@@ -1,17 +1,17 @@
 {
   "article_data_list": [
     {
-      "filename": "2000-07-08-02-T43ebbc8d0b60.html",
+      "filename": "02-fnT43ebbc8d0b60.html",
       "order": 2,
-      "output_relpath": "articles/2000/07/2000-07-08-02-T43ebbc8d0b60.html",
+      "output_relpath": "articles/2000/07/08/02-fnT43ebbc8d0b60.html",
       "tag_list": [],
       "title": "T43ebbc8d0b60",
       "yyyymmdd": "2000-07-08"
     },
     {
-      "filename": "2000-07-22-00-T6aede91781c4.html",
+      "filename": "00-2000-07-22-00-T6aede91781c4.html",
       "order": 0,
-      "output_relpath": "articles/2000/07/2000-07-22-00-T6aede91781c4.html",
+      "output_relpath": "articles/2000/07/22/00-2000-07-22-00-T6aede91781c4.html",
       "tag_list": [
         "tag-3"
       ],
@@ -19,9 +19,9 @@
       "yyyymmdd": "2000-07-22"
     },
     {
-      "filename": "2000-07-22-02-T76dc9deb121c.html",
+      "filename": "02-2000-07-22-02-T76dc9deb121c.html",
       "order": 2,
-      "output_relpath": "articles/2000/07/2000-07-22-02-T76dc9deb121c.html",
+      "output_relpath": "articles/2000/07/22/02-2000-07-22-02-T76dc9deb121c.html",
       "tag_list": [
         "tag-1",
         "tag-2"
@@ -30,9 +30,9 @@
       "yyyymmdd": "2000-07-22"
     },
     {
-      "filename": "2000-07-23-00-T11304af0c359.html",
+      "filename": "00-2000-07-23-00-T11304af0c359.html",
       "order": 0,
-      "output_relpath": "articles/2000/07/2000-07-23-00-T11304af0c359.html",
+      "output_relpath": "articles/2000/07/23/00-2000-07-23-00-T11304af0c359.html",
       "tag_list": [
         "tag-0",
         "tag-2"
@@ -41,9 +41,9 @@
       "yyyymmdd": "2000-07-23"
     },
     {
-      "filename": "2000-07-26-01-Tc212dbd726bc.html",
+      "filename": "01-fnTc212dbd726bc.html",
       "order": 1,
-      "output_relpath": "articles/2000/07/2000-07-26-01-Tc212dbd726bc.html",
+      "output_relpath": "articles/2000/07/26/01-fnTc212dbd726bc.html",
       "tag_list": [
         "tag-1",
         "tag-2",
@@ -53,9 +53,9 @@
       "yyyymmdd": "2000-07-26"
     },
     {
-      "filename": "2000-07-30-01-Tf509d9cddb9e.html",
+      "filename": "01-2000-07-30-01-Tf509d9cddb9e.html",
       "order": 1,
-      "output_relpath": "articles/2000/07/2000-07-30-01-Tf509d9cddb9e.html",
+      "output_relpath": "articles/2000/07/30/01-2000-07-30-01-Tf509d9cddb9e.html",
       "tag_list": [
         "tag-2"
       ],
@@ -63,9 +63,9 @@
       "yyyymmdd": "2000-07-30"
     },
     {
-      "filename": "2000-07-30-02-T342115153338.html",
+      "filename": "02-2000-07-30-02-T342115153338.html",
       "order": 2,
-      "output_relpath": "articles/2000/07/2000-07-30-02-T342115153338.html",
+      "output_relpath": "articles/2000/07/30/02-2000-07-30-02-T342115153338.html",
       "tag_list": [
         "tag-0"
       ],
