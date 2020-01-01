@@ -2,7 +2,7 @@
   "article_data_list": [
     {
       "order": 2,
-      "output_relpath": "blogs/2002/03/2002-03-01-02-T318ff2eadeeb.html",
+      "output_relpath": "articles/2002/03/2002-03-01-02-T318ff2eadeeb.html",
       "tag_list": [
         "tag-0",
         "tag-1",
@@ -13,21 +13,21 @@
     },
     {
       "order": 2,
-      "output_relpath": "blogs/2002/03/2002-03-04-02-T0af313729e64.html",
+      "output_relpath": "articles/2002/03/2002-03-04-02-T0af313729e64.html",
       "tag_list": [],
       "title": "T0af313729e64",
       "yyyymmdd": "2002-03-04"
     },
     {
       "order": 0,
-      "output_relpath": "blogs/2002/03/2002-03-11-00-T62b8e9dda92f.html",
+      "output_relpath": "articles/2002/03/2002-03-11-00-T62b8e9dda92f.html",
       "tag_list": [],
       "title": "T62b8e9dda92f",
       "yyyymmdd": "2002-03-11"
     },
     {
       "order": 1,
-      "output_relpath": "blogs/2002/03/2002-03-21-01-T5a1c19d4c80d.html",
+      "output_relpath": "articles/2002/03/2002-03-21-01-T5a1c19d4c80d.html",
       "tag_list": [
         "tag-0",
         "tag-1"
@@ -37,7 +37,7 @@
     },
     {
       "order": 2,
-      "output_relpath": "blogs/2002/03/2002-03-23-02-T5a0458badf6d.html",
+      "output_relpath": "articles/2002/03/2002-03-23-02-T5a0458badf6d.html",
       "tag_list": [
         "tag-3"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "order": 0,
-      "output_relpath": "blogs/2002/03/2002-03-26-00-Tb90d8ec9c084.html",
+      "output_relpath": "articles/2002/03/2002-03-26-00-Tb90d8ec9c084.html",
       "tag_list": [
         "tag-0",
         "tag-3"
@@ -56,14 +56,14 @@
     },
     {
       "order": 1,
-      "output_relpath": "blogs/2002/03/2002-03-26-01-Tf7bf246b3dce.html",
+      "output_relpath": "articles/2002/03/2002-03-26-01-Tf7bf246b3dce.html",
       "tag_list": [],
       "title": "Tf7bf246b3dce",
       "yyyymmdd": "2002-03-26"
     },
     {
       "order": 0,
-      "output_relpath": "blogs/2002/03/2002-03-30-00-T2ea025a4536c.html",
+      "output_relpath": "articles/2002/03/2002-03-30-00-T2ea025a4536c.html",
       "tag_list": [
         "tag-0"
       ],
@@ -72,7 +72,7 @@
     },
     {
       "order": 1,
-      "output_relpath": "blogs/2002/03/2002-03-30-01-Te4c74b1e4aa2.html",
+      "output_relpath": "articles/2002/03/2002-03-30-01-Te4c74b1e4aa2.html",
       "tag_list": [
         "tag-1",
         "tag-3"

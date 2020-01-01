@@ -2,7 +2,7 @@
   "article_data_list": [
     {
       "order": 1,
-      "output_relpath": "blogs/2002/05/2002-05-15-01-T577f8adf9010.html",
+      "output_relpath": "articles/2002/05/2002-05-15-01-T577f8adf9010.html",
       "tag_list": [
         "tag-1",
         "tag-3"
@@ -12,7 +12,7 @@
     },
     {
       "order": 2,
-      "output_relpath": "blogs/2002/05/2002-05-15-02-T950caa882b75.html",
+      "output_relpath": "articles/2002/05/2002-05-15-02-T950caa882b75.html",
       "tag_list": [
         "tag-1",
         "tag-2"

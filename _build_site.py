@@ -30,7 +30,7 @@ def main():
         mm = article_data['datetime'].strftime('%m')
         article_data['yyyymm'] = article_data['datetime'].strftime('%Y-%m')
         output_basename = os.path.basename(article_data['input_abspath'])[:-6]
-        article_data['output_relpath'] = os.path.join('blogs',yyyy,mm,output_basename)
+        article_data['output_relpath'] = os.path.join('articles',yyyy,mm,output_basename)
         article_data['output_abspath'] = os.path.join(docs_output_path,article_data['output_relpath'])
         article_data['j'] = { k : article_data[k] for k in ['yyyymmdd','order','tag_list','output_relpath','title'] }
         # print(article_data)
