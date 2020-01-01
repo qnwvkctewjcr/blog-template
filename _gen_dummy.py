@@ -41,16 +41,16 @@ def main():
                 if not os.path.isdir(os.path.dirname(file_path)):
                     os.makedirs(os.path.dirname(file_path))
                 with open(file_path, mode='wt') as fout:
-                    fout.write('{% extends "article.html.jinja" %}\n')
+                    fout.write('{% extends "article_block.jinja" %}\n')
                     fout.write('\n')
                     fout.write(f'{{% set date = "{yyyymmdd}" %}}\n')
                     fout.write(f'{{% set order = {article_idx} %}}\n')
                     fout.write(f'{{% set title = "{title}" %}}\n')
                     fout.write(f'{{% set tag_list = {tag_list} %}}\n')
                     fout.write('\n')
-                    fout.write('{% block article %}\n')
+                    fout.write('{% set content %}\n')
                     fout.write(f'<p>{content}</p>\n')
-                    fout.write('{% endblock %}\n')
+                    fout.write('{% endset %}\n')
 
 def date_range(start_date, end_date):
     date = start_date

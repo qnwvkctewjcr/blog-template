@@ -56,11 +56,18 @@ def main(profile=None):
 
     # build article
     for article_data in article_data_list:
-        article_template = template_env.get_template(article_data['input_relpath'])
+        render_param = { 'URL_ROOT': URL_ROOT }
+
         output_abspath = article_data['output_abspath']
         output_abspath_dirname = os.path.dirname(output_abspath)
         makedirs(output_abspath_dirname)
-        article_template.stream(URL_ROOT=URL_ROOT).dump(output_abspath)
+
+        article_block_template = template_env.get_template(article_data['input_relpath'])
+        article_block = article_block_template.render(**render_param)
+        render_param['article_block'] = article_block
+
+        article_template = template_env.get_template('article_page.html.jinja')
+        article_template.stream(**render_param,**(article_block_template.module.__dict__)).dump(output_abspath)
 
     # build index
     template_env.get_template('index.html.jinja') \
@@ -183,7 +190,7 @@ def copy_tree(src, dst):
             shutil.copy(src_abspath, tar_abspath)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('profile')
+parser.add_argument('profile', nargs='?')
 args = parser.parse_args()
 
 main(profile=args.profile)
