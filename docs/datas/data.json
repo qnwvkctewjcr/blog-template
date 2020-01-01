@@ -1,0 +1,22 @@
+{
+  "yyyymm_to_data_path_dict": {
+    "2000-01": "datas/yyyymms/2000-01.json",
+    "2000-07": "datas/yyyymms/2000-07.json",
+    "2000-08": "datas/yyyymms/2000-08.json",
+    "2000-09": "datas/yyyymms/2000-09.json",
+    "2002-01": "datas/yyyymms/2002-01.json",
+    "2002-02": "datas/yyyymms/2002-02.json",
+    "2002-03": "datas/yyyymms/2002-03.json",
+    "2002-05": "datas/yyyymms/2002-05.json",
+    "2002-06": "datas/yyyymms/2002-06.json",
+    "2002-07": "datas/yyyymms/2002-07.json",
+    "2002-12": "datas/yyyymms/2002-12.json",
+    "2003-01": "datas/yyyymms/2003-01.json",
+    "2003-03": "datas/yyyymms/2003-03.json",
+    "2003-04": "datas/yyyymms/2003-04.json",
+    "2003-05": "datas/yyyymms/2003-05.json",
+    "2003-08": "datas/yyyymms/2003-08.json",
+    "2003-10": "datas/yyyymms/2003-10.json",
+    "2003-11": "datas/yyyymms/2003-11.json"
+  }
+}

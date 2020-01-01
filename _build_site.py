@@ -55,8 +55,10 @@ def main():
 
     # for yyyymm
     yyyymm_to_article_data_list = to_list_dict(lambda i: i['yyyymm'], article_data_list)
+    yyyymm_to_data_path_dict = {}
     for yyyymm, _article_data_list in yyyymm_to_article_data_list.items():
-        j_path = os.path.join(docs_output_path,'datas','yyyymms',f'{yyyymm}.json')
+        j_relpath = os.path.join('datas','yyyymms',f'{yyyymm}.json')
+        j_path = os.path.join(docs_output_path,j_relpath)
         __article_data_list = _article_data_list
         __article_data_list = list(map(lambda i:i['j'], __article_data_list))
         __article_data_list.sort(key=lambda i:(i['yyyymmdd'],i['order']))
@@ -65,8 +67,17 @@ def main():
             'article_data_list': __article_data_list,
         }
         write_json(j_path, data)
+        yyyymm_to_data_path_dict[yyyymm] = j_relpath
     
     # for tag-yyyymm
+
+    # output root data
+    write_json(
+        os.path.join(docs_output_path,'datas','data.json'),
+        {
+            'yyyymm_to_data_path_dict': yyyymm_to_data_path_dict
+        }
+    )
 
 def to_list_dict(k_lambda, data_list):
     ret_dict = {}
